@@ -1,0 +1,11 @@
+# $Id: downloads.txt,v 1.1.2.2 2013/12/22 03:15:03 darseq Exp $
+# package;architecture;url
+# install: downloads packages using the url's provided.
+MSSQLdriver;x86;http://go.microsoft.com/fwlink/?LinkId=123717
+MSSQLserver;x86;http://download.microsoft.com/download/f/1/0/f10c4f60-630e-4153-bd53-c3010e4c513b/SQLEXPR.EXE
+MYSQLdriver;x86;http://dev.mysql.com/get/Downloads/Connector-ODBC/5.3/mysql-connector-odbc-5.3.12-win32.msi
+MYSQLserver;x86;http://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-web-community-5.6.43.0.msi
+MSSQLdriver;x64;http://go.microsoft.com/fwlink/?LinkId=123718
+MSSQLserver;x64;http://download.microsoft.com/download/c/2/8/c28cc7df-c9d2-453b-9292-ae7d242dfeca/SQLEXPR_x64_ENU.exe
+MYSQLdriver;x64;http://dev.mysql.com/get/Downloads/Connector-ODBC/5.3/mysql-connector-odbc-5.3.12-winx64.msi
+MYSQLserver;x64;http://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-web-community-5.6.43.0.msi

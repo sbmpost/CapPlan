@@ -1,0 +1,51 @@
+License Agreement for CapPlan ("Software")
+Copyright (c) 2004-2019 by PostWare (S.B.M. Post)
+All Rights Reserved.
+
+LICENSE AGREEMENT.
+You may only use this Software when you accept all the terms of this
+license agreement. When you do not accept this agreement, you may not
+install or use the Software. All updates to this Software are
+considered part of the Software and are subject to this agreement.
+Changes to this agreement may accompany updates to the Software, in
+which case by installing such update you accept the terms of the
+agreement as changed.
+
+1. OWNERSHIP.
+This Software is licensed, not sold. PostWare owns this Software and
+all copies and all intellectual property rights. You agree not to
+sublicense, sell, rent, lease, convey, modify, translate, convert to
+another programming language, decompile, or disassemble the Software
+for any purpose.
+
+2. USE.
+You may only use this Software when you have purchased a license from
+PostWare.
+
+3. GRANT OF LICENSE.
+Subject to the terms and conditions of this license, PostWare grants
+you a personal, non-exclusive, non-transferable and limited license
+to use this Software. You are also permitted to make a reasonable
+number of backup copies of this Software solely to replace the original
+copy provided to you if the original copy is damaged or destroyed. All
+rights not specifically granted to you in this license agreement are
+retained by PostWare.
+
+4. LIMITED WARRANTY.
+THE SOFTWARE IS PROVIDED AS IS AND PostWare DISCLAIMS ALL WARRANTIES
+RELATING TO THIS SOFTWARE, WHETHER EXPRESSED OR IMPLIED, INCLUDING BUT
+NOT LIMITED TO ANY IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE.
+
+5. LIMITATION ON CONSEQUENTIAL DAMAGES.
+NEITHER PostWare NOR ANYONE INVOLVED IN THE CREATION, PRODUCTION, OR
+DELIVERY OF THIS SOFTWARE SHALL BE LIABLE FOR ANY INDIRECT,
+CONSEQUENTIAL, OR INCIDENTAL DAMAGES ARISING OUT OF THE USE OR
+INABILITY TO USE SUCH SOFTWARE EVEN IF PostWare HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES OR CLAIMS. THE PERSON USING THE SOFTWARE
+BEARS ALL RISK AS TO THE QUALITY AND PERFORMANCE OF THE SOFTWARE.
+
+6. TERMINATION.
+This agreement terminates when one party materially breaches any terms
+of this agreement in which case you may no longer use this Software and
+must destroy the Software along with all copies in any form.

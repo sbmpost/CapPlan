@@ -1,0 +1,33 @@
+# $Id: filelist.txt,v 1.18 2013/12/21 20:00:16 darseq Exp $
+# name;root;base;flag
+# install: copies the name entries to root\base\
+# uninstall: put filelist.txt entry near the end
+# ------------------------------------------------
+# NOTE THAT WHEN NAME IS A DIRECTORY, ALL ENTRIES
+# IN IT ARE RECURSIVELY DELETED WHEN UNINSTALLING!
+# ------------------------------------------------
+license.txt;INSTALLROOT;;0
+manual.txt;INSTALLROOT;;0
+templates\order.pdf;INSTALLROOT;templates;0
+documents\placeholder;INSTALLROOT;documents;0
+CapPlan.exe.manifest;INSTALLROOT;;0
+CapPlan.exe;INSTALLROOT;;0
+CapPlan_NLD.exe;INSTALLROOT;;0
+#CapPlan.NLD;INSTALLROOT;;0
+CapPlan.pl;INSTALLROOT;;0
+CapiCal.pl;INSTALLROOT;;0
+CapiCal.php;INSTALLROOT;;0
+user_my.sql;INSTALLROOT;;0
+database;NOINSTALL;;0
+CapPlan.ico;INSTALLROOT;;0
+admin.txt;INSTALLROOT;;0
+vEvent.ics;INSTALLROOT;;0
+#versit.dll;INSTALLROOT;;0
+filelist.txt;INSTALLROOT;;0
+downloads.txt;INSTALLROOT;;0
+install.exe.manifest;INSTALLROOT;;0
+install.exe;INSTALLROOT;;0
+libeay32.dll;INSTALLROOT;;0
+ssleay32.dll;INSTALLROOT;;0
+#unzip.txt;NOINSTALL;;0
+#unzip32.dll;NOINSTALL;;0

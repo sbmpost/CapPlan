@@ -75,7 +75,7 @@ B) CapPlan integrates with Apple's Preview application. If another PDF integrati
 
 C) Multiple CapPlan clients can connect to the same database server. CapPlan is multiuser aware and will detect
    simultaneous changes to data and warn the user if clashes occur. As for documents, 3rd party synchronisation
-   software can be used sync them between the clients, which allows for faster editing. This could happen every
+   software can be used to sync them between the clients, which allows for faster editing. This could happen every
    15 minutes for example. If document modification timestamps are correctly preserved during the sync, CapPlan
    will check for consistency. Furthermore CapPlan will prevent simultaneous modifications to the same document.
 

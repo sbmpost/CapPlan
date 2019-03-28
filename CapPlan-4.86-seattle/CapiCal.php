@@ -5,7 +5,7 @@
 // data. This allows for employees to look up their own appointments using a
 // mobile device for instance. The $login,$passw and default $schedule value
 // should be set before using it. The script is called like this:
-// CapiCal.pl?schedule=1&employee=1&appsdate=2011-08-03
+// CapiCal.php?schedule=1&employee=1&appsdate=2011-08-03
 
 $login = '<username>';
 $passw = '<password>';
@@ -88,7 +88,7 @@ function EscapeFoldStr($text) {
     $text = str_replace(
         array("\\", ";", ",", "\r", "\n"),
         array("\\\\", "\\;", "\\,", "", "\\n"),
-	$text);
+        $text);
 
     #Fold text
     $str = ""; $chars = strlen($text);
