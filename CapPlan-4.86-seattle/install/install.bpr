@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="c:\code\p_plan\full\install.exe"/>
+    <OBJFILES value="install.obj setup.obj welcome.obj license.obj config.obj selectdir.obj 
+      download.obj finish.obj ..\Odbc.obj ..\Query.obj"/>
+    <RESFILES value="install.res"/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) setup.dfm welcome.dfm license.dfm config.dfm selectdir.dfm 
+      download.dfm finish.dfm"/>
+    <LIBFILES value="..\Odbc32.lib Odbccp32.lib unzip32.lib &quot;C:\Program Files\Borland\CBuilder6\Lib\Psdk\psapi.lib&quot;"/>
+    <LIBRARIES value="Indy60.lib TDataRows.lib nmfast.lib bcbsmp.lib vclx.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib vclx.lib bcbsmp.lib nmfast.lib TDataRows.lib Indy60.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi vclx.bpi bcbsmp.bpi qrpt.bpi visualclx.bpi vclie.bpi 
+      xmlrtl.bpi inet.bpi inetdbbde.bpi inetdbxpress.bpi dclocx.bpi nmfast.bpi 
+      dbrtl.bpi adortl.bpi vcldb.bpi bdertl.bpi vcldbx.bpi dsnap.bpi cds.bpi 
+      bdecds.bpi teeui.bpi teedb.bpi tee.bpi teeqr.bpi ibxpress.bpi 
+      visualdbclx.bpi inetdb.bpi bcbie.bpi soaprtl.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi TRowGrid.bpi"/>
+    <PATHCPP value=".;.."/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.86&quot;;INNODB;NO_EXHANDLER"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="install.cpp"/>
+    <INCLUDEPATH value="..\;..;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..\;..;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a4 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$Y+ -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="install.res" FORMNAME="" UNITNAME="install.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="install.cpp" FORMNAME="" UNITNAME="install" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="setup.cpp" FORMNAME="SetupBase" UNITNAME="setup" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="welcome.cpp" FORMNAME="SetupWelcome" UNITNAME="welcome" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="license.cpp" FORMNAME="SetupLicense" UNITNAME="license" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="config.cpp" FORMNAME="SetupConfig" UNITNAME="config" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="selectdir.cpp" FORMNAME="Fselect" UNITNAME="selectdir" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="download.cpp" FORMNAME="SetupDownload" UNITNAME="download" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="finish.cpp" FORMNAME="SetupFinish" UNITNAME="finish" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Odbc.cpp" FORMNAME="" UNITNAME="Odbc.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Query.cpp" FORMNAME="" UNITNAME="Query.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Odbc32.lib" FORMNAME="" UNITNAME="Odbc32.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Odbccp32.lib" FORMNAME="" UNITNAME="Odbccp32.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="unzip32.lib" FORMNAME="" UNITNAME="unzip32.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="C:\Program Files\Borland\CBuilder6\Lib\Psdk\psapi.lib" FORMNAME="" UNITNAME="psapi.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=34
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=PostWare
+FileDescription=
+FileVersion=1.0.0.34
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.34
+
+[Excluded Packages]
+c:\program files\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+C:\Program Files\Borland\CBuilder6\Source\C6\dclIndy60.bpl=Internet Direct (Indy) for D6 Property and Component Editors
+
+[HistoryLists\hlIncludePath]
+Count=7
+Item0=..\;..;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item1=..;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item2=..\;C:\Program Files\Borland\CBuilder6\Projects;..;$(BCB)\include;$(BCB)\include\vcl
+Item3=C:\Program Files\Borland\CBuilder6\Projects;..\;..;$(BCB)\include;$(BCB)\include\vcl
+Item4=..\;..;$(BCB)\include;$(BCB)\include\vcl
+Item5=..\;$(BCB)\include;$(BCB)\include\vcl
+Item6=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=7
+Item0=..\;..;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item1=..;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item2=..\;C:\Program Files\Borland\CBuilder6\Projects;..;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item3=C:\Program Files\Borland\CBuilder6\Projects;..\;..;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item4=..\;..;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item5=..\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item6=$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=30
+Item0=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.86&quot;;INNODB;NO_EXHANDLER
+Item1=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.86&quot;;MS_SQL;NO_EXHANDLER
+Item2=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.85&quot;;MS_SQL;NO_EXHANDLER
+Item3=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.84&quot;;MS_SQL;NO_EXHANDLER
+Item4=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.65&quot;;MS_SQL;NO_EXHANDLER
+Item5=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.64&quot;;MS_SQL;NO_EXHANDLER
+Item6=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.63&quot;;MS_SQL;NO_EXHANDLER
+Item7=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.62&quot;;MS_SQL;NO_EXHANDLER
+Item8=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.61&quot;;MS_SQL;NO_EXHANDLER
+Item9=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.55&quot;;MS_SQL;NO_EXHANDLER
+Item10=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.54&quot;;MS_SQL;NO_EXHANDLER
+Item11=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.53&quot;;MS_SQL;NO_EXHANDLER
+Item12=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.52&quot;;MS_SQL;NO_EXHANDLER
+Item13=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.51&quot;;MS_SQL;NO_EXHANDLER
+Item14=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.43&quot;;MS_SQL;NO_EXHANDLER
+Item15=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.42&quot;;MS_SQL;NO_EXHANDLER
+Item16=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.41&quot;;MS_SQL;NO_EXHANDLER
+Item17=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.39&quot;;MS_SQL;NO_EXHANDLER
+Item18=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.40&quot;;MS_SQL;NO_EXHANDLER
+Item19=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.38&quot;;MS_SQL;NO_EXHANDLER
+Item20=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.37&quot;;MS_SQL;NO_EXHANDLER
+Item21=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.36&quot;;MS_SQL;NO_EXHANDLER
+Item22=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.35&quot;;MS_SQL;NO_EXHANDLER
+Item23=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.34&quot;;MS_SQL;NO_EXHANDLER
+Item24=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.32&quot;;MS_SQL;NO_EXHANDLER
+Item25=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.31&quot;;MS_SQL;NO_EXHANDLER
+Item26=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.21&quot;;MS_SQL;NO_EXHANDLER
+Item27=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.20&quot;;MS_SQL;NO_EXHANDLER
+Item28=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.18&quot;;MS_SQL;NO_EXHANDLER
+Item29=PRODUCT=&quot;CapPlan&quot;;VERSION=&quot;4.16&quot;;MS_SQL;NO_EXHANDLER
+
+[HistoryLists\hlFinalOutputDir]
+Count=7
+Item0=c:\code\p_plan\full\
+Item1=c:\a\work\code\p_plan\full\
+Item2=c:\a\work\code\p_plan\full
+Item3=C:\weg\p_plan\full\
+Item4=C:\weg\p_plan\full
+Item5=c:\weg\p_plan\
+Item6=c:\weg\p_plan
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=1
+LinkDebugVcl=1
+LinkCGLIB=0
+  </IDEOPTIONS>
+</PROJECT>

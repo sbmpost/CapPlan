@@ -1,0 +1,4 @@
+> greater or equal to mysql 4.01:
+> ALTER TABLE example_table CHANGE COLUMN columnB columnB > TEXT NOT NULL AFTER id;
+
+ALTER TABLE entries DROP PRIMARY KEY, ADD PRIMARY KEY (TRACK,EMPLOYEE_ID,DATE_FROM,DATE_UNTIL);

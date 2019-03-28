@@ -1,0 +1,184 @@
+//$Id: PLAN_NLD.RC,v 1.122 1998/01/22 20:05:50 darseq Exp $
+#include "..\planner.rh"
+
+STRINGTABLE
+{
+ FMAIN_USEREVERTFORCHANGES,
+	"(Gebruik 'Maak ongedaan' om wijzigingen van anderen te zien)"
+ FMAIN_UNSAVEDCHANGES,
+	"Er zijn wijzigingen die nog niet zijn opgeslagen. Sla de\n"
+	"wijzigingen op of annuleer voordat u het programma afsluit."
+ FMAIN_SELECTENTRIESFIRST, "U dient eerst cellen te selecteren.\n"
+ FMAIN_CANNOTINSERTONTOP,
+	"Het is niet mogelijk om over een bestaande cel heen te plannen."
+ FMAIN_CANNOTMODIFYEMPTY, "Het is niet mogelijk om een lege cel te bewerken."
+ FMAIN_SETRANGEFIRST,
+	"U dient eerst een bereik in te stellen.\n"
+	"(Sleep over een cel heen met ALT)"
+ FMAIN_NUMBEROFENTRIESSELECTED, "Aantal geselecteerde cellen: "
+ FMAIN_NUMBEROFENTRIESHIDDEN, "Aantal verborgen cellen: "
+ FMAIN_NUMBEROFENTRIESDELETE, "Het aantal te verwijderen cellen is: "
+ FMAIN_NUMBEROFENTRIESMODIFY, "Het aantal te bewerken cellen is: "
+ FMAIN_NUMBEROFENTRIESSPLIT, "Het aantal op te splitsen cellen is: "
+ FMAIN_DELETEENTRYQUESTION, "Wilt u de geselecteerde cel verwijderen?"
+ FMAIN_MODIFYENTRYQUESTION, "Wilt u de geselecteerde cel bewerken?"
+ FMAIN_SPLITENTRYQUESTION, "Wilt u de geselecteerde cel splitsen?"
+ FMAIN_SPLITFAIL, "Enkele cellen konden niet worden opgesplitst."
+ FMAIN_IMPORTFAIL, "Enkele afspraken konden niet worden geïmporteerd."
+ FMAIN_IMPORTSUCCESS, "Alle afspraken zijn succesvol geïmporteerd."
+ FMAIN_CANNOTUPDATEOPTIONS,
+	"De opties van deze agenda kunnen niet worden bijgewerkt."
+ FMAIN_FIRSTRUNFAILURE,
+	"De standaard gegevens konden niet worden ingevoerd. U wordt aangeraden\n"
+	"om het opnieuw te proberen door het programma opnieuw op te starten.\n"
+	"Zodra u op OK klikt zal er een diagnostisch bericht verschijnen."
+ FMAIN_FIRSTRUNSUCCESS,
+	"Dit is de eerste keer dat u het programma start. Een agenda\n"
+	"met 20 werknemers is aangemaakt om u op weg te helpen.\n"
+	"Wilt u de help pagina met aanvullende informatie openen?"
+ FMAIN_ENTRYINVISIBLEDATE,
+	"De tijden van een of meerdere cellen vallen buiten het zichtbare "
+	"gedeelte.\nOm alle cellen zichtbaar te maken, moeten de instellingen "
+	"van deze agenda\nworden aangepast."
+ FMAIN_DBLCLICKTOSCHEDULE, "dubbelklik om te plannen"
+ FMAIN_TOOMANYCONNECTIONS, "Er zijn teveel verbindingen."
+ FMAIN_CONSIDERGETLICENSE,
+	"U gebruikt een demo versie van CapPlan. Wilt u\n"
+	"informatie over het aanschaffen van een licentie?"
+ FMAIN_TRIALDAYSLEFT, "Aantal dagen voor het einde van de proefperiode: "
+ FMAIN_INCOMPLETEPRINTOUT, "Onvolledige print, werknemer: "
+ CL_PERSONNOTEXISTS, "Deze persoon bestaat niet (meer)."
+ TR_APPOINTMENTNOTEXISTS, "Deze afspraak bestaat niet (meer)."
+ TR_SCHEDULENOTEXISTS, "Deze agenda bestaat niet (meer)."
+ TR_DOCUMENTNOTEXISTS, "Dit document bestaat niet (meer)."
+ TR_CODENAMENOTEXISTS, "Deze code bestaat niet (meer)."
+ TR_DOCUMENTTOOLARGE, "Het geselecteerde document is te groot. De limiet is "
+ TR_ENTRIESEXIST,
+	"Kan deze persoon niet verwijderen omdat er een agenda bestaat met "
+	"cellen\nwaarbij deze persoon de werknemer is. (Gebruik CTRL om dat "
+	"te negeren)."
+ FMDETAIL_OPENINGDOCUMENT, "Bezig met openen..."
+ FMDETAIL_DOCALREADYOPENED,
+	"Het geselecteerde document is al door iemand anders\n"
+	"geopend. Wilt u doorgaan met openen? (alleen lezen)"
+ FARCHIVE_ENTERDESCRIPTIONHERE,"<Geef hier een beschrijving>"
+ FARCHIVE_INCONSISTENCYWARNING,
+	"Waarschuwing: Het aanpassen van deze instellingen beïnvloedt de reeds\n"
+	"ingevoerde cellen en kan leiden tot onregelmatigheden. Het wordt dan\n"
+	"ook aanbevolen deze instellingen alleen te wijzigen tijdens de setup.\n"
+	"Controleer tevens dat niemand anders het programma open heeft staan."
+ FARCHIVE_NEEDNAMEORPOSTCODE,
+	"U dient een naam of geldige postcode in te vullen."
+ FARCHIVE_REALLYDELETEPERSON,
+	"Wilt u de geselecteerde persoon echt verwijderen?\n"
+	"Dit houdt in dat alle gegevens van deze persoon zoals de\n"
+	"bijbehorende afspraken en documenten worden vernietigd."
+ FARCHIVE_REALLYDELETEAPPOINTMENT,
+	"Wilt u de geselecteerde afspraak echt verwijderen?\n"
+	"Dit houdt in dat de afspraak zelf en de bijbehorende\n"
+	"cellen worden vernietigd."
+ FARCHIVE_REALLYCANCELAPPOINTMENT,
+	"Wilt u de geselecteerde afspraak echt afzeggen?"
+ FARCHIVE_REALLYDELETEDOCUMENT,
+	"Wilt u het geselecteerde document echt verwijderen?"
+ FARCHIVE_REALLYDELETESCHEDULE,
+	"Wilt u de geselecteerde agenda echt verwijderen? Bij het\n"
+	"verwijderen van een agenda worden de cellen behouden."
+ FARCHIVE_SCHEDULE, "agenda"
+ FARCHIVE_Y, "J"
+ FARCHIVE_N, "N"
+ FARCHIVE_TOTAL, "Totaal:"
+ FBASE_INVALIDFILE, "Ongeldig bestand "
+ FBASE_ERRORLOCKING, "Fout bij de toegang tot "
+ FBASE_ERROROPENING, "Fout bij het openen van "
+ FBASE_ERRORREADING, "Fout bij het lezen van "
+ FBASE_ERRORWRITING, "Fout bij het schrijven naar "
+ FBASE_ERRORCREATING, "Fout bij het maken van "
+ FBASE_ERRORDELETING, "Fout bij het verwijderen van "
+ FBASE_ERRORRENAMING, "Fout bij het hernoemen van "
+ FBASE_ERRORGETFILEINF,
+	"Fout bij het opvragen van de bestandsgegevens."
+ FBASE_FILEWASMODIFIED,
+	"Waarschuwing: bestand is bewerkt buiten dit\n"
+	"programma om. Wilt u doorgaan met openen?"
+ FBASE_NEWERDOCVERSION,
+	"Er is een nieuwere versie van dit document. Het bestand dat u nu\n"
+	"opent is niet up-to-date. Wilt u doorgaan met openen? (alleen lezen)"
+ FBASE_DATEORDERERROR,
+	"Het opgegeven bereik is ongeldig omdat\n"
+	"de startdatum groter is dan de einddatum."
+ FBASE_VISIBLERANGEERROR,
+	"Het opgegeven bereik is ongeldig omdat\n"
+	"deze buiten het zichtbare gedeelte valt."
+ FBASE_WAITINGCLOSEDOC, "Wachten op sluiten document..."
+ FBASE_RUNNINGDOCMACRO, "Bezig met macro uitvoeren..."
+ FBASE_TERMINATINGWORD, "Word proces beëindigen..."
+ FBASE_SENDINGMAILMESSAGE, "Email bericht versturen..."
+ FDETAILS_PERSONEMPLOYEE, "Deze persoon is &werknemer"
+ FDETAILS_PERSONHIDDEN, "Deze persoon is &verborgen"
+ FDETAILS_APPOINTMENTPAID, "Deze afspraak is &betaald"
+ FDETAILS_APPOINTMENTEXCLUSIVE, "Anderen mogen niet &wijzigen"
+ FDETAILS_APPOINTMENTCANCELLED, "Deze afspraak is a&fgezegd"
+ FDETAILS_CANCELLEDINTIME, "Er is op &tijd afgezegd"
+ FDETAILS_DOCUMENTSIGNED, "Dit is een &getekend document"
+ FDETAILS_DOCUMENTSCHEDULE, "Dit document moet ge&pland worden"
+ FDETAILS_DOCUMENTURGENT, "Met &spoed plannen"
+ FDETAILS_DOCUMENTRESTORE, "Dit document &terugzetten in de takenlijst"
+ FDETAILS_SCHEDULEHIDDEN, "Deze agenda is &verborgen"
+ FDETAILS_NOTSIGNEDSCHEDULE,
+	"Dit document is niet getekend. Toch plannen?"
+ FPENDING_REALLYMARKREJECTED,
+	"Wilt u dit document echt aanmerken als 'afgekeurd'?"
+ FPENDING_REALLYMARKORDERED,
+	"Wilt u de geselecteerde documenten echt aanmerken als 'besteld'?"
+ FPENDING_REALLYMARKCHARGED,
+	"Wilt u de geselecteerde documenten echt aanmerken als 'gefactureerd'?"
+ FPENDING_REALLYRESETSTATE,
+	"Wilt u dit document echt terugzetten naar de begintoestand?"
+ FPENDING_REALLYMOVETOSCHEDULE,
+	"Wilt u dit document echt verplaatsen naar 'plannen'?"
+ FPENDING_REMOVEUNHANDLEDITEMS, "Niet afgehandelde ingangen ook weghalen?"
+ FPENDING_REMOVEITEMQUESTION, "Wilt u deze ingang uit de lijst halen?"
+ FPENDING_NUMBEROFITEMSREMOVE, "Het aantal weg te halen ingangen is: "
+ FPENDING_URGENT, "spoed"
+ FRANGE_NOITEMSCHECKED, "Er is niets aangevinkt."
+ FMAIL_NUMBEROFMAILSTOSEND, "Het aantal te versturen mails is: "
+ EX_SENDBUGREPORTQUESTION,
+	"De laatste keer dat CapPlan gestart was, is er niet goed\n"
+	"afgesloten. Wilt u een foutrapportage verzenden?"
+ EX_CANNOTAPPENDCREATELOG,
+	"Waarschuwing: er is geen toegang tot het log bestand."
+ EX_TRANSACTIONFAILURE,
+	"Het programma is onderbroken omdat er een andere transactie plaatsvindt.\n"
+	"Gegevens die u nog niet had opgeslagen zijn verdwenen: Indien u opnieuw\n"
+	"wilt proberen is het raadzaam om de selectie te controleren."
+ EX_INTEGRITYVIOLATION,
+	"Het programma is onderbroken om de integriteit van de database te "
+	"behouden.\nGegevens die u nog niet had opgeslagen zijn verdwenen. "
+	"Indien u opnieuw wilt\nproberen is het raadzaam om de selectie te "
+	"controleren."
+ EX_CONNECTIONFAILED,
+	"De verbinding met de database is verbroken! Gegevens die u nog niet "
+	"had opgeslagen zijn\nverdwenen. Om opnieuw te verbinden moet het "
+	"programma opnieuw opgestart worden."
+ EX_ACCESSDENIED,
+	"De toegang is geweigerd! Gegevens die u nog niet had opgeslagen "
+	"zijn verdwenen."
+ EX_FATALERROR,
+	"Als dit probleem zich blijft voordoen dient u contact op te\n"
+	"nemen met de programma beheerder. Afsluiten? (aanbevolen)."
+ WILLBEEXECUTED, "zal worden uitgevoerd."
+ CONTINUEQUESTION, "Doorgaan?"
+ ITEMSACCESSDENIED, "U heeft geen toegang tot de geselecteerde ingang(en)."
+ SELECTEDCANCELLED,
+	"Het is niet mogelijk om een afgezegde afspraak te plannen."
+ SELECTION_CHANGED,
+	"Er zijn nieuwe gegevens. Controleer\n"
+	"uw selectie en probeer het opnieuw."
+ SELECTION_LOCKED,
+	"Het programma is onderbroken omdat uw selectie op dit moment door\n"
+	"iemand anders wordt bijgewerkt. Probeer het over een tijdje nog eens."
+ DUPLICATE_KEY, "Het programma is onderbroken omdat deze ingang al bestaat."
+ REALLYDISCARDCHANGES, "Wilt u alle wijzigingen echt ongedaan maken?"
+}
+

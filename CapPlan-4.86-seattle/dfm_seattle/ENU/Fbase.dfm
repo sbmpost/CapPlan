@@ -1,0 +1,34 @@
+object Fbase1: TFbase1
+  Left = 0
+  Top = 0
+  HorzScrollBar.Visible = False
+  VertScrollBar.Visible = False
+  Anchors = []
+  Caption = 'Fbase1'
+  ClientHeight = 689
+  ClientWidth = 993
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'Verdana'
+  Font.Style = []
+  KeyPreview = True
+  OldCreateOrder = True
+  Position = poMainFormCenter
+  Scaled = False
+  ShowHint = True
+  OnClose = FormClose
+  OnKeyPress = FormKeyPress
+  PixelsPerInch = 96
+  TextHeight = 16
+  object Panel1: TPanel
+    Left = 359
+    Top = 479
+    Width = 273
+    Height = 41
+    Caption = 'Status'
+    TabOrder = 0
+    Visible = False
+  end
+end

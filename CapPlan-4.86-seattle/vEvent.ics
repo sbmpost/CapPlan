@@ -1,0 +1,12 @@
+BEGIN:VEVENT
+UID:<uid>
+SEQUENCE:<sequence>
+ORGANIZER;CN=CapPlan:mailto:capplan@companyname.nl
+DTSTAMP;TZID=Europe/Amsterdam:<date_stamp>
+DTSTART;TZID=Europe/Amsterdam:<date_from>
+DTEND;TZID=Europe/Amsterdam:<date_until>
+SUMMARY:<lastname>
+LOCATION:<location>
+URL:tel://<telephone>
+DESCRIPTION:<infotext>
+END:VEVENT

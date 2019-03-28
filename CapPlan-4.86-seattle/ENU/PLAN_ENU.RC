@@ -1,0 +1,167 @@
+//$Id: PLAN_ENU.RC,v 1.110 1998/01/22 19:37:31 darseq Exp $
+#include "..\planner.rh"
+
+STRINGTABLE
+{
+ FMAIN_USEREVERTFORCHANGES, "(use 'Revert' to see changes made by others)"
+ FMAIN_UNSAVEDCHANGES, "There are changes, save or cancel before closing."
+ FMAIN_SELECTENTRIESFIRST, "Select entries first."
+ FMAIN_CANNOTINSERTONTOP, "Cannot insert on top of an existing entry."
+ FMAIN_CANNOTMODIFYEMPTY, "Cannot modify an entry which is empty."
+ FMAIN_SETRANGEFIRST, "Set a range first (Use ALT to drag on top of an entry)"
+ FMAIN_NUMBEROFENTRIESSELECTED, "Number of entries that were selected: "
+ FMAIN_NUMBEROFENTRIESHIDDEN, "Number of entries that were hidden: "
+ FMAIN_NUMBEROFENTRIESDELETE,
+	"The following number of entries will be deleted: "
+ FMAIN_NUMBEROFENTRIESMODIFY,
+	"The following number of entries will be modified: "
+ FMAIN_NUMBEROFENTRIESSPLIT, "The following number of entries will be split: "
+ FMAIN_DELETEENTRYQUESTION, "Do you wish to delete the selected entry?"
+ FMAIN_MODIFYENTRYQUESTION, "Do you wish to modify the selected entry?"
+ FMAIN_SPLITENTRYQUESTION, "Do you wish to split the selected entry?"
+ FMAIN_SPLITFAIL, "Some entries could not be split."
+ FMAIN_IMPORTFAIL, "Some appointments could not be imported."
+ FMAIN_IMPORTSUCCESS, "All appointments were successfully imported."
+ FMAIN_CANNOTUPDATEOPTIONS, "Unable to update the options of this schedule."
+ FMAIN_FIRSTRUNFAILURE,
+	"Could not insert default records. Please restart the program to\n"
+	"retry. A diagnostic error message will follow after you click OK."
+ FMAIN_FIRSTRUNSUCCESS,
+	"This is the first time you run this program. A schedule with\n"
+	"20 employees has been created to help you getting started.\n"
+	"Do you wish to open a help page with additional information?"
+ FMAIN_ENTRYINVISIBLEDATE,
+	"The time values of one or more entries are not within display "
+	"range. To\nshow these entries, it is necessary to adjust the "
+	"settings of this schedule."
+ FMAIN_DBLCLICKTOSCHEDULE, "double-click to schedule"
+ FMAIN_TOOMANYCONNECTIONS, "There are too many connections."
+ FMAIN_CONSIDERGETLICENSE,
+	"You are using a demo version of CapPlan. Do\n"
+	"you want information about getting a license?"
+ FMAIN_TRIALDAYSLEFT, "Number of trial days left: "
+ FMAIN_INCOMPLETEPRINTOUT, "Incomplete print, employee: "
+ CL_PERSONNOTEXISTS, "Person does not exist (anymore)."
+ TR_APPOINTMENTNOTEXISTS, "Appointment does not exist (anymore)."
+ TR_SCHEDULENOTEXISTS, "Schedule does not exist (anymore)."
+ TR_DOCUMENTNOTEXISTS, "Document does not exist (anymore)."
+ TR_CODENAMENOTEXISTS, "Code does not exist (anymore)."
+ TR_DOCUMENTTOOLARGE, "The selected document is too large. The limit is "
+ TR_ENTRIESEXIST,
+	"Cannot delete person because there exists a schedule with entries\n"
+	"where this person is the employee. (Use CTRL key to override this)."
+ FMDETAIL_OPENINGDOCUMENT, "Opening document..."
+ FMDETAIL_DOCALREADYOPENED,
+	"The selected document is already opened by someone\n"
+	"else. Do you want to continue opening it? (read-only)"
+ FARCHIVE_ENTERDESCRIPTIONHERE,"<Enter a description here>"
+ FARCHIVE_INCONSISTENCYWARNING,
+	"Warning: changing these settings affects the entries that have\n"
+	"already been inserted which may lead to inconsistencies. It is\n"
+	"suggested that you only change these settings once, during setup.\n"
+	"Also make sure that no other clients are active while doing so."
+ FARCHIVE_NEEDNAMEORPOSTCODE, "Please enter a name or valid postal code."
+ FARCHIVE_REALLYDELETEPERSON,
+	"Do you really wish to delete the selected person?\n"
+	"Deleting a person means that all the data about the\n"
+	"person, like appointments and documents, is destroyed."
+ FARCHIVE_REALLYDELETEAPPOINTMENT,
+	"Do you really wish to delete the selected appointment?\n"
+	"Deleting an appointment means that the appointment\n"
+	"itself and its entries are removed."
+ FARCHIVE_REALLYCANCELAPPOINTMENT,
+	"Do you really wish to cancel the selected appointment?"
+ FARCHIVE_REALLYDELETEDOCUMENT,
+	"Do you really wish to delete the selected document?"
+ FARCHIVE_REALLYDELETESCHEDULE,
+	"Do you really wish to delete the selected schedule?\n"
+	"When deleting a schedule, its entries are kept."
+ FARCHIVE_SCHEDULE, "schedule"
+ FARCHIVE_Y, "Y"
+ FARCHIVE_N, "N"
+ FARCHIVE_TOTAL, "Total:"
+ FBASE_INVALIDFILE, "Invalid file "
+ FBASE_ERRORLOCKING, "Error locking "
+ FBASE_ERROROPENING, "Error opening "
+ FBASE_ERRORREADING, "Error reading "
+ FBASE_ERRORWRITING, "Error writing "
+ FBASE_ERRORCREATING, "Error creating "
+ FBASE_ERRORDELETING, "Error deleting "
+ FBASE_ERRORRENAMING, "Error renaming "
+ FBASE_ERRORGETFILEINF,
+	"Error getting file information."
+ FBASE_FILEWASMODIFIED,
+	"Warning: file was modified from outside this\n"
+	"program. Do you want to continue opening it?"
+ FBASE_NEWERDOCVERSION,
+	"There is a newer version of this document. The file you are opening\n"
+	"is not up to date. Do you want to continue opening it? (read-only)"
+ FBASE_WAITINGCLOSEDOC, "Waiting for document to be closed..."
+ FBASE_RUNNINGDOCMACRO, "Running document macro..."
+ FBASE_TERMINATINGWORD, "Terminating word process..."
+ FBASE_SENDINGMAILMESSAGE, "Sending mail message..."
+ FBASE_DATEORDERERROR,
+	"The specified range is invalid because the\n"
+	"begin date is larger than the end date."
+ FBASE_VISIBLERANGEERROR,
+	"The specified range is invalid because\n"
+	"it is not within the visible range."
+ FDETAILS_PERSONEMPLOYEE, "This person is &employee"
+ FDETAILS_PERSONHIDDEN, "This person is &hidden"
+ FDETAILS_APPOINTMENTPAID, "This appointment has been &paid"
+ FDETAILS_APPOINTMENTEXCLUSIVE, "Others are not allowed to &update"
+ FDETAILS_APPOINTMENTCANCELLED, "This appointment was c&ancelled"
+ FDETAILS_CANCELLEDINTIME, "Appointment was cancelled in &time"
+ FDETAILS_DOCUMENTSIGNED, "This document has been si&gned"
+ FDETAILS_DOCUMENTSCHEDULE, "This document must be &scheduled"
+ FDETAILS_DOCUMENTURGENT, "Schedule this document with &urgency"
+ FDETAILS_DOCUMENTRESTORE, "&Restore this document to the pending list"
+ FDETAILS_SCHEDULEHIDDEN, "This schedule is &hidden"
+ FDETAILS_NOTSIGNEDSCHEDULE,
+	"Document is not signed, schedule anyway?"
+ FPENDING_REALLYMARKREJECTED,
+	"Do you really wish to mark this document as 'rejected'?"
+ FPENDING_REALLYMARKORDERED,
+	"Do you really wish to mark the selected documents as 'ordered'?"
+ FPENDING_REALLYMARKCHARGED,
+	"Do you really wish to mark the selected documents as 'charged'?"
+ FPENDING_REALLYRESETSTATE,
+	"Do you really wish to reset the state of this document?"
+ FPENDING_REALLYMOVETOSCHEDULE,
+	"Do you really wish to move this document to 'schedule'?"
+ FPENDING_REMOVEUNHANDLEDITEMS, "Also remove unhandled items?"
+ FPENDING_REMOVEITEMQUESTION, "Do you wish to remove this item from the list?"
+ FPENDING_NUMBEROFITEMSREMOVE, "The following number of items will be removed: "
+ FPENDING_URGENT, "urgent"
+ FRANGE_NOITEMSCHECKED, "There are no items checked."
+ FMAIL_NUMBEROFMAILSTOSEND, "The following number of mails will be sent: "
+ EX_SENDBUGREPORTQUESTION,
+	"The last time CapPlan was started, it terminated\n"
+	"unexpectedly. Do you wish to send a bug report?"
+ EX_CANNOTAPPENDCREATELOG, "Warning: cannot append to/create logfile."
+ EX_TRANSACTIONFAILURE,
+	"Cannot continue because another transaction is executing. Data that\n"
+	"was not yet saved is lost. To try again, check the selection first."
+ EX_INTEGRITYVIOLATION,
+	"Cannot continue because the integrity constrains of the database\n"
+	"do not allow for this operation to be completed. Data that was not\n"
+	"yet saved is lost. To try again, check the selection first."
+ EX_CONNECTIONFAILED,
+	"The database connection failed! Data that was not\n"
+	"yet saved is lost. Restart the program to reconnect."
+ EX_ACCESSDENIED, "Access denied! Data that was not yet saved is lost."
+ EX_FATALERROR,
+	"Contact the program administrator if the\n"
+	"problem persists. Terminate? (recommended)."
+ WILLBEEXECUTED, "will be executed."
+ CONTINUEQUESTION, "Continue?"
+ ITEMSACCESSDENIED, "Access to the selected item(s) is denied."
+ SELECTEDCANCELLED, "Cannot schedule an appointment which is cancelled."
+ SELECTION_CHANGED, "New data is available. Check your selection and retry."
+ SELECTION_LOCKED,
+	"Cannot continue because your selection is being\n"
+	"updated by someone else. Please try again later."
+ DUPLICATE_KEY, "Cannot continue because this record is already present."
+ REALLYDISCARDCHANGES, "Do you really wish to discard all changes?"
+}
+

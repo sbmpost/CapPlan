@@ -1,0 +1,1001 @@
+##v##00.4.50
+EditHelpFileTitle.Text=TRowGrid v1.0.2.64 (PostWare)
+form2.STextForeHeadline.Color=16777215
+form2.STextForeText.Color=0
+form2.STextBackHeadline.Color=12845056
+form2.STextBackText.Color=16777215
+form2.STextHeadlineFont.Caption=Arial
+form2.STextTextFont.Caption=Arial
+form2.sTextFontSizeForHeadline.Caption=12
+form2.sTextFontSizeForText.Caption=9
+form2.CBoxBold.Checked=1
+form2.CBoxNoForeColor.Checked=0
+form2.CBoxLanguageID.ItemIndex=6
+form2.CBoxCharSet.ItemIndex=0
+form2.EditContents.Text=Contents
+form2.EditFrontpageName.Text=Front page with index
+form2.CBoxDontMakeFrontpage.Checked=1
+form2.EditLogoPath.Text=
+form2.EditFrontpageButtonCaption.Text=Front page
+form2.RGroupHorizontalAlignment.ItemIndex=0
+form2.RGroupVerticalAlignment.ItemIndex=0
+form2.CBoxBlankLineBeforeEachHeading.Checked=1
+form2.CBoxMakeFrontPageButton.Checked=0
+form2.SpinEditFrontpageIDnumber.Value=9999
+form2.CBoxAddAboutMenu.Checked=0
+form2.EditAboutMenuCaption.Text=&About this help file...
+form2.CBoxPopupPagesForAboutMenu.Tag=-1
+form2.EditConstantNameFilePrefix.Text=pageConstants_
+form2.EditConstantNameFileExt.Text=txt
+form5.sTextColor1=0
+form5.sTextColor2=9743070
+form5.sTextColor3=12386403
+form5.sTextColor4=255
+form5.sTextColor5=8421376
+form5.sTextColor6=8650752
+form5.sTextColor7=33280
+form5.sTextColor8=32896
+form5.sTextColor9=13026246
+form5.sTextColor10=16711680
+form5.sTextColor11=65280
+form5.sTextColor12=8651007
+form5.sTextColor13=16777215
+form5.sTextColor14=16757429
+form5.sTextColor15=9764863
+form5.sTextColor16=8421504
+form5.sTextComment1=
+form5.sTextComment2=
+form5.sTextComment3=
+form5.sTextComment4=
+form5.sTextComment5=
+form5.sTextComment6=
+form5.sTextComment7=
+form5.sTextComment8=
+form5.sTextComment9=
+form5.sTextComment10=
+form5.sTextComment11=
+form5.sTextComment12=
+form5.sTextComment13=
+form5.sTextComment14=
+form5.sTextComment15=
+form5.sTextComment16=
+NumOfPages=52
+------------ end of project settings / page settings follow ------------
+pageC.pages[0].ImageIndex=-1
+pageTitle(0).Text=TRowGrid::
+getPageConstantLabel(0).Caption=
+getPageContentHeaderLabel(0).Caption=
+pageKeywords(0).Text=
+pageC.pages[1].ImageIndex=0
+pageTitle(1).Text=TRowGrid::Hierarchy
+getPageConstantLabel(1).Caption=
+getPageContentHeaderLabel(1).Caption=
+pageKeywords(1).Text=
+pageC.pages[2].ImageIndex=-1
+pageTitle(2).Text=TRowGrid::ActiveX
+getPageConstantLabel(2).Caption=
+getPageContentHeaderLabel(2).Caption=
+pageKeywords(2).Text=ActiveX;ShiftState
+pageC.pages[3].ImageIndex=-1
+pageTitle(3).Text=TRowGrid::Using the mouse
+getPageConstantLabel(3).Caption=
+getPageContentHeaderLabel(3).Caption=
+pageKeywords(3).Text=Using the mouse
+pageC.pages[4].ImageIndex=-1
+pageTitle(4).Text=TRowGrid::RowCell
+getPageConstantLabel(4).Caption=
+getPageContentHeaderLabel(4).Caption=
+pageKeywords(4).Text=RowCell
+pageC.pages[5].ImageIndex=-1
+pageTitle(5).Text=TRowGrid::RowCell::operator==
+getPageConstantLabel(5).Caption=
+getPageContentHeaderLabel(5).Caption=
+pageKeywords(5).Text=
+pageC.pages[6].ImageIndex=-1
+pageTitle(6).Text=TRowGrid::RowCell::operator<
+getPageConstantLabel(6).Caption=
+getPageContentHeaderLabel(6).Caption=
+pageKeywords(6).Text=
+pageC.pages[7].ImageIndex=0
+pageTitle(7).Text=TRowGrid::properties
+getPageConstantLabel(7).Caption=
+getPageContentHeaderLabel(7).Caption=
+pageKeywords(7).Text=
+pageC.pages[8].ImageIndex=-1
+pageTitle(8).Text=TRowGrid::AltKeyInserts
+getPageConstantLabel(8).Caption=
+getPageContentHeaderLabel(8).Caption=
+pageKeywords(8).Text=AltKeyInserts
+pageC.pages[9].ImageIndex=-1
+pageTitle(9).Text=TRowGrid::CellBorderWidth
+getPageConstantLabel(9).Caption=
+getPageContentHeaderLabel(9).Caption=
+pageKeywords(9).Text=CellBorderWidth
+pageC.pages[10].ImageIndex=-1
+pageTitle(10).Text=TRowGrid::CellColor
+getPageConstantLabel(10).Caption=
+getPageContentHeaderLabel(10).Caption=
+pageKeywords(10).Text=CellColor
+pageC.pages[11].ImageIndex=-1
+pageTitle(11).Text=TRowGrid::CellFrameWidth
+getPageConstantLabel(11).Caption=
+getPageContentHeaderLabel(11).Caption=
+pageKeywords(11).Text=CellFrameWidth
+pageC.pages[12].ImageIndex=-1
+pageTitle(12).Text=TRowGrid::CellState
+getPageConstantLabel(12).Caption=
+getPageContentHeaderLabel(12).Caption=
+pageKeywords(12).Text=TCellState
+pageC.pages[13].ImageIndex=-1
+pageTitle(13).Text=TRowGrid::Cells
+getPageConstantLabel(13).Caption=
+getPageContentHeaderLabel(13).Caption=
+pageKeywords(13).Text=Cells
+pageC.pages[14].ImageIndex=-1
+pageTitle(14).Text=TRowGrid::CheckPosition
+getPageConstantLabel(14).Caption=
+getPageContentHeaderLabel(14).Caption=
+pageKeywords(14).Text=CheckPosition
+pageC.pages[15].ImageIndex=-1
+pageTitle(15).Text=TRowGrid::ClientHeight
+getPageConstantLabel(15).Caption=
+getPageContentHeaderLabel(15).Caption=
+pageKeywords(15).Text=ClientHeight
+pageC.pages[16].ImageIndex=-1
+pageTitle(16).Text=TRowGrid::ClientWidth
+getPageConstantLabel(16).Caption=
+getPageContentHeaderLabel(16).Caption=
+pageKeywords(16).Text=ClientWidth
+pageC.pages[17].ImageIndex=-1
+pageTitle(17).Text=TRowGrid::DefaultDrawing
+getPageConstantLabel(17).Caption=
+getPageContentHeaderLabel(17).Caption=
+pageKeywords(17).Text=DefaultDrawing
+pageC.pages[18].ImageIndex=-1
+pageTitle(18).Text=TRowGrid::DragCell
+getPageConstantLabel(18).Caption=
+getPageContentHeaderLabel(18).Caption=
+pageKeywords(18).Text=DragCell
+pageC.pages[19].ImageIndex=-1
+pageTitle(19).Text=TRowGrid::DragState
+getPageConstantLabel(19).Caption=
+getPageContentHeaderLabel(19).Caption=
+pageKeywords(19).Text=TDragState
+pageC.pages[20].ImageIndex=-1
+pageTitle(20).Text=TRowGrid::FrameWidth
+getPageConstantLabel(20).Caption=
+getPageContentHeaderLabel(20).Caption=
+pageKeywords(20).Text=FrameWidth
+pageC.pages[21].ImageIndex=-1
+pageTitle(21).Text=TRowGrid::MinVisible
+getPageConstantLabel(21).Caption=
+getPageContentHeaderLabel(21).Caption=
+pageKeywords(21).Text=MinVisible
+pageC.pages[22].ImageIndex=-1
+pageTitle(22).Text=TRowGrid::RowCount
+getPageConstantLabel(22).Caption=
+getPageContentHeaderLabel(22).Caption=
+pageKeywords(22).Text=RowCount
+pageC.pages[23].ImageIndex=-1
+pageTitle(23).Text=TRowGrid::RowHeight
+getPageConstantLabel(23).Caption=
+getPageContentHeaderLabel(23).Caption=
+pageKeywords(23).Text=RowHeight
+pageC.pages[24].ImageIndex=-1
+pageTitle(24).Text=TRowGrid::RowLineColor
+getPageConstantLabel(24).Caption=
+getPageContentHeaderLabel(24).Caption=
+pageKeywords(24).Text=RowLineColor
+pageC.pages[25].ImageIndex=-1
+pageTitle(25).Text=TRowGrid::RowLineWidth
+getPageConstantLabel(25).Caption=
+getPageContentHeaderLabel(25).Caption=
+pageKeywords(25).Text=RowLineWidth
+pageC.pages[26].ImageIndex=-1
+pageTitle(26).Text=TRowGrid::ShiftKeyHolds
+getPageConstantLabel(26).Caption=
+getPageContentHeaderLabel(26).Caption=
+pageKeywords(26).Text=ShiftKeyHolds
+pageC.pages[27].ImageIndex=-1
+pageTitle(27).Text=TRowGrid::ShiftKeySwaps
+getPageConstantLabel(27).Caption=
+getPageContentHeaderLabel(27).Caption=
+pageKeywords(27).Text=ShiftKeySwaps
+pageC.pages[28].ImageIndex=-1
+pageTitle(28).Text=TRowGrid::TickColor
+getPageConstantLabel(28).Caption=
+getPageContentHeaderLabel(28).Caption=
+pageKeywords(28).Text=TickColor
+pageC.pages[29].ImageIndex=-1
+pageTitle(29).Text=TRowGrid::Units
+getPageConstantLabel(29).Caption=
+getPageContentHeaderLabel(29).Caption=
+pageKeywords(29).Text=Units
+pageC.pages[30].ImageIndex=-1
+pageTitle(30).Text=TRowGrid::UnitWidth
+getPageConstantLabel(30).Caption=
+getPageContentHeaderLabel(30).Caption=
+pageKeywords(30).Text=UnitWidth
+pageC.pages[31].ImageIndex=-1
+pageTitle(31).Text=TRowGrid::VerticalRows
+getPageConstantLabel(31).Caption=
+getPageContentHeaderLabel(31).Caption=
+pageKeywords(31).Text=VerticalRows
+pageC.pages[32].ImageIndex=0
+pageTitle(32).Text=TRowGrid::Methods
+getPageConstantLabel(32).Caption=
+getPageContentHeaderLabel(32).Caption=
+pageKeywords(32).Text=
+pageC.pages[33].ImageIndex=-1
+pageTitle(33).Text=TRowGrid::CellRect
+getPageConstantLabel(33).Caption=
+getPageContentHeaderLabel(33).Caption=
+pageKeywords(33).Text=CellRect
+pageC.pages[34].ImageIndex=-1
+pageTitle(34).Text=TRowGrid::ClearDragState
+getPageConstantLabel(34).Caption=
+getPageContentHeaderLabel(34).Caption=
+pageKeywords(34).Text=ClearDragState
+pageC.pages[35].ImageIndex=-1
+pageTitle(35).Text=TRowGrid::ClearRow
+getPageConstantLabel(35).Caption=
+getPageContentHeaderLabel(35).Caption=
+pageKeywords(35).Text=ClearRow
+pageC.pages[36].ImageIndex=-1
+pageTitle(36).Text=TRowGrid::InsertRowCell
+getPageConstantLabel(36).Caption=
+getPageContentHeaderLabel(36).Caption=
+pageKeywords(36).Text=InsertRowCell
+pageC.pages[37].ImageIndex=-1
+pageTitle(37).Text=TRowGrid::MouseToCell
+getPageConstantLabel(37).Caption=
+getPageContentHeaderLabel(37).Caption=
+pageKeywords(37).Text=MouseToCell
+pageC.pages[38].ImageIndex=-1
+pageTitle(38).Text=TRowGrid::PaintCell
+getPageConstantLabel(38).Caption=
+getPageContentHeaderLabel(38).Caption=
+pageKeywords(38).Text=PaintCell
+pageC.pages[39].ImageIndex=-1
+pageTitle(39).Text=TRowGrid::RemoveRowCell
+getPageConstantLabel(39).Caption=
+getPageContentHeaderLabel(39).Caption=
+pageKeywords(39).Text=RemoveRowCell
+pageC.pages[40].ImageIndex=-1
+pageTitle(40).Text=TRowGrid::RowLineRect
+getPageConstantLabel(40).Caption=
+getPageContentHeaderLabel(40).Caption=
+pageKeywords(40).Text=RowLineRect
+pageC.pages[41].ImageIndex=-1
+pageTitle(41).Text=TRowGrid::SortRow
+getPageConstantLabel(41).Caption=
+getPageContentHeaderLabel(41).Caption=
+pageKeywords(41).Text=SortRow
+pageC.pages[42].ImageIndex=-1
+pageTitle(42).Text=TRowGrid::ToggleFocus
+getPageConstantLabel(42).Caption=
+getPageContentHeaderLabel(42).Caption=
+pageKeywords(42).Text=ToggleFocus
+pageC.pages[43].ImageIndex=0
+pageTitle(43).Text=TRowGrid::Events
+getPageConstantLabel(43).Caption=
+getPageContentHeaderLabel(43).Caption=
+pageKeywords(43).Text=
+pageC.pages[44].ImageIndex=-1
+pageTitle(44).Text=TRowGrid::OnClearRowCell
+getPageConstantLabel(44).Caption=
+getPageContentHeaderLabel(44).Caption=
+pageKeywords(44).Text=OnClearRowCell
+pageC.pages[45].ImageIndex=-1
+pageTitle(45).Text=TRowGrid::OnDblClickRowCell
+getPageConstantLabel(45).Caption=
+getPageContentHeaderLabel(45).Caption=
+pageKeywords(45).Text=OnDblClickRowCell
+pageC.pages[46].ImageIndex=-1
+pageTitle(46).Text=TRowGrid::OnDragRowCell
+getPageConstantLabel(46).Caption=
+getPageContentHeaderLabel(46).Caption=
+pageKeywords(46).Text=OnDragRowCell
+pageC.pages[47].ImageIndex=-1
+pageTitle(47).Text=TRowGrid::OnDrawFocusRect
+getPageConstantLabel(47).Caption=
+getPageContentHeaderLabel(47).Caption=
+pageKeywords(47).Text=OnDrawFocusRect
+pageC.pages[48].ImageIndex=-1
+pageTitle(48).Text=TRowGrid::OnDrawRowCell
+getPageConstantLabel(48).Caption=
+getPageContentHeaderLabel(48).Caption=
+pageKeywords(48).Text=OnDrawRowCell
+pageC.pages[49].ImageIndex=-1
+pageTitle(49).Text=TRowGrid::OnDrawRowLine
+getPageConstantLabel(49).Caption=
+getPageContentHeaderLabel(49).Caption=
+pageKeywords(49).Text=OnDrawRowLine
+pageC.pages[50].ImageIndex=-1
+pageTitle(50).Text=TRowGrid::OnInsertRowCell
+getPageConstantLabel(50).Caption=
+getPageContentHeaderLabel(50).Caption=
+pageKeywords(50).Text=OnInsertRowCell
+pageC.pages[51].ImageIndex=-1
+pageTitle(51).Text=TRowGrid::OnPaint
+getPageConstantLabel(51).Caption=
+getPageContentHeaderLabel(51).Caption=
+pageKeywords(51).Text=OnPaint
+pageC.pages[52].ImageIndex=-1
+pageTitle(52).Text=TRowGrid::OnRemoveRowCell
+getPageConstantLabel(52).Caption=
+getPageContentHeaderLabel(52).Caption=
+pageKeywords(52).Text=OnRemoveRowCell
+------------ end of page titles / full text of pages follow ------------
+----- SHM ---- page 0 ---- 
+<pop=SHM_contents0002>Hierarchy</pop>	<pop=SHM_contents0008>Properties</pop>	<pop=SHM_contents0033>Methods</pop>		<pop=SHM_contents0044>Events</pop>
+<u>                                                                                                                                                                                                </u>
+A TRowGrid is a grid that may have a variable number of columns for each row. The columns are
+represented by <jump=SHM_contents0005>RowCells</jump> contained within a <jump=SHM_contents0014>Cells</jump> structure. RowCells can be inserted or removed
+by the user (see <jump=SHM_contents0004>using the mouse</jump>) or the application itself.  The application is presented with an
+uniform set of RowCell events in order to respond to user changes.
+----- SHM ---- page 1 ---- 
+<b>Hierarchy</b>
+TObject
+  |
+TPersistant
+  |
+TComponent
+  |
+TControl
+  |
+TWinControl
+  |
+TCustomControl
+  |
+TRowGrid
+----- SHM ---- page 2 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+There are a few differences when accessing properties and responding to events when the
+ActiveX version of the RowGrid is used. Most of these differences can be found near the bottom
+of each help topic. These differences are mainly due to the fact that ActiveX works with 'interface'
+objects instead of ordinary objects. One of the consequences is that the application writer is now
+responsible for releasing interface objects that are not required anymore. To this end each
+interface object stores a reference counter which must be updated whenever a new reference
+(pointer) is created or goes out of scope. C++ Builder simplifies this process by providing the
+TComInterface class whereas Delphi automatically inserts the necessary code. Code examples
+can be found in the test and delphi directories of the rowgrid archive.
+
+Another difference is that not all RowGrid types are supported by the ActiveX object model. As
+such some conversions are necessary when using ActiveX types. For example the ShiftState of
+type 'unsigned_char' may be converted to the regular TShiftState type as follows:
+
+	TShiftState Shift;
+	if(ShiftState & (1 << 0)) Shift << ssShift;
+	if(ShiftState & (1 << 1)) Shift << ssAlt;
+	if(ShiftState & (1 << 2)) Shift << ssCtrl;
+	if(ShiftState & (1 << 3)) Shift << ssLeft;
+	if(ShiftState & (1 << 4)) Shift << ssRight;
+	if(ShiftState & (1 << 5)) Shift << ssMiddle;
+	if(ShiftState & (1 << 6)) Shift << ssDouble;
+----- SHM ---- page 3 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+The user may use the mouse to insert, drag, resize, copy and swap RowCells.
+
+- insert		Left click on an empty grid position and drag a new RowCell.
+- drag		Left click on the center area of a RowCell and drag to another position. 
+- resize		Left click on the border area of a RowCell and drag to another position.
+- copy		Right click on the center area of a RowCell and drag to another position.
+- swap		Left click on another RowCell while holding the shift key.
+
+For each user action of the list above, the following RowCell events are generated:
+
+- insert:		<jump=SHM_contents0051>OnInsertRowCell</jump>
+- drag/resize:	<jump=SHM_contents0047>OnDragRowCell</jump>, <jump=SHM_contents0053>OnRemoveRowCell</jump>, on drop: <jump=SHM_contents0051>OnInsertRowCell</jump>
+- copy:		<jump=SHM_contents0047>OnDragRowCell</jump>, on drop: <jump=SHM_contents0051>OnInsertRowCell</jump>
+- swap:		on drop: <jump=SHM_contents0047>OnDragRowCell</jump>, <jump=SHM_contents0053>OnRemoveRowCell</jump>, <jump=SHM_contents0051>OnInsertRowCell</jump>
+
+It is possible to start a RowCell operation without the need to hold the mouse button. This
+is accomplished by using the SHIFT key in combination with a single mouse click on a
+RowCell. The SHIFT key also enables the user to swap RowCells as described above.
+Moreover, the SCROLL LOCK key may be used to toggle between always swapping cells
+regardless of the SHIFT key. The ALT key allows multiple RowCells to be inserted at the
+same position.
+
+<b>Note1:</b> To block the SHIFT or ALT keys, use <jump=SHM_contents0027>ShiftKeyHolds</jump>, <jump=SHM_contents0028>ShiftKeySwaps</jump>, <jump=SHM_contents0009>AltKeyInserts</jump>
+<b>Note2:</b> It is up to the application to implement the removal of a RowCell. For instance, the
+application could implement the OnMouseDown event and call MouseToCell to keep track
+of the currently selected RowCell (see the example below <jump=SHM_contents0038>MouseToCell</jump>). Then the delete
+key could be programmed to remove the selected RowCell by calling <jump=SHM_contents0040>RemoveRowCell</jump>.
+----- SHM ---- page 4 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+A RowCell is the basic building block of a RowGrid.
+
+__fastcall RowCell(int Row,int Start,int Units,int Zorder = 0,void * Object = NULL); 
+
+class RowCell \{
+\ql\{bml spacebullit.bmp\}\ql __property int Row;
+\ql\{bml spacebullit.bmp\}\ql __property int Start;
+\ql\{bml spacebullit.bmp\}\ql __property int Units;
+\ql\{bml spacebullit.bmp\}\ql int Zorder;
+\ql\{bml spacebullit.bmp\}\ql void * object;
+\}
+
+The Row, Start and Units properties describe the location and size of a RowCell. Use
+<jump=SHM_contents0037>InsertRowCell</jump> and <jump=SHM_contents0040>RemoveRowCell</jump> to insert or remove RowCells from within the
+application. At runtime, the user can manipulate RowCells by <jump=SHM_contents0004>using the mouse</jump>.
+
+- Row specifies the index of the row, ranging from [0,TRowGrid::Rows)
+- Start specifies the starting position in Units of the RowCell [see note]
+- Units should be positive and specifies the width of the RowCell in Units
+- When RowCells overlap, Zorder determines the stackorder (see <jump=SHM_contents0042>SortRow</jump>).
+- optionally associate an object with the RowCell. The application writer is completely 
+  responsible for allocating and deallocating the object (also see <jump=SHM_contents0040>RemoveRowCell</jump>).
+
+<b>note:</b> Values outside the range [0,TRowGrid::Units) are allowed.
+<b>ActiveX:</b> To access the members of the RowCell use the IRowCellX get_XXX and
+set_XXX methods
+----- SHM ---- page 5 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+Two RowCells are equal whenever the following holds:
+
+	RowCell.Row == Row && RowCell.Start == Start &&
+	RowCell.Units == Units && RowCell.Zorder == Zorder &&
+	RowCell.Object == Object;
+
+<b>ActiveX:</b> Use the RowCellX.equals function instead.
+----- SHM ---- page 6 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+
+bool __fastcall operator <(const RowCell & RowCell) const \{
+	if(Zorder < RowCell.Zorder) \{return true;\}
+	else if(Zorder > RowCell.Zorder) \{return false;\}
+	else if(Start < RowCell.Start) \{return true;\}
+	else if(Start > RowCell.Start) \{return false;\}
+	else \{return Units < RowCell.Units;\}
+\}
+
+<b>ActiveX:</b> This operator is not available in the IRowCellX interface
+----- SHM ---- page 7 ---- 
+<b>In TRowGrid</b>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0009>AltKeyInserts</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0010>CellBorderWidth</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0011>CellColor</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0012>CellFrameWidth</jump>
+\ql\{bml bluebullit.bmp\}\ql <jump=SHM_contents0013>CellState</jump>
+\ql\{bml bluebullit.bmp\}\ql <jump=SHM_contents0014>Cells</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0015>CheckPosition</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0016>ClientHeight</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0017>ClientWidth</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0018>DefaultDrawing</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0019>DragCell</jump>
+\ql\{bml bluebullit.bmp\}\ql <jump=SHM_contents0020>DragState</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0021>FrameWidth</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0022>MinVisible</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0023>RowCount</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0024>RowHeight</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0025>RowLineColor</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0026>RowLineWidth</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0027>ShiftKeyHolds</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0028>ShiftKeySwaps</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0029>TickColor</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0030>Units</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0031>UnitWidth</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0032>VerticalRows</jump>
+
+<b>Derived from classes in the <pop=SHM_contents0002>hierarchy</pop></b>
+- All properties declared public and:
+\ql\{bml bluebullit.bmp\}\ql TCustomControl::Canvas (ActiveX: HDC)
+----- SHM ---- page 8 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property bool AltKeyInserts
+
+Set AltKeyInserts so the user can use the mouse in combination with the ALT key to insert
+a new cell at the same position of another cell. (Also see <jump=SHM_contents0027>ShiftKeyHolds</jump> and <jump=SHM_contents0028>ShiftKeySwaps</jump>)
+
+<b>Note:</b> The value of <jump=SHM_contents0015>CheckPosition</jump> is ignored when the ALT key is used and AltKeyInserts is true
+----- SHM ---- page 9 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property int CellBorderWidth
+
+Specifies the number of pixels that belong to a RowCell border. When a RowCell border is clicked, the
+RowCell can be resized.
+----- SHM ---- page 10 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property TColor CellColor
+
+Set CellColor to change the color of all RowCells in the grid. This is relevant only when <jump=SHM_contents0018>DefaultDrawing</jump> is
+true.
+----- SHM ---- page 11 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property int CellFrameWidth
+
+Set CellFrameWidth to change the frame size that is drawn around each RowCell. This is relevant only
+when <jump=SHM_contents0018>DefaultDrawing</jump> is true.
+
+----- SHM ---- page 12 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+typedef enum \{csLeft,csCenter,csRight,csEmpty,csNone\} TCellState;
+__property TCellState CellState
+
+- csNone	The coordinate does not match any grid row
+- csEmpty 	The coordinate matches an empty position
+- csLeft		The coordinate matches the left border of a RowCell
+- csRight	The coordinate matches the right border of a RowCell
+- csCenter 	The coordinate matches the center area of a RowCell
+
+This readonly property represents the position of the mouse with respect to RowCell borders. The
+CellState property of the RowGrid is only defined when <jump=SHM_contents0020>DragState</jump> is either dsDragDrop or dsCopyDrop. 
+
+<b>Note:</b> Within <jump=SHM_contents0047>OnDragRowCell</jump>, use the provided CellState parameter instead.
+<b>ActiveX:</b> TCellState is called TxCellState
+----- SHM ---- page 13 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+Contains the rows and RowCells of the RowGrid
+
+typedef vector<row_t> cells_t;
+typedef vector<RowCell> row_t;
+__property cells_t Cells
+
+Use the Cells property to iterate over all inserted <jump=SHM_contents0005>RowCells</jump> of the RowGrid. For example
+one might want to access or release the objects members of RowCells. Although the Cells
+property ifself is readonly its contents is not. Do not use Cells directly to insert or remove
+RowCells. Use <jump=SHM_contents0037>InsertRowCell</jump> and <jump=SHM_contents0040>RemoveRowCell</jump> instead.
+
+<b>Note:</b> do *not* access Cells in the OnMouseDown event. Use <jump=SHM_contents0038>MouseToCell</jump> instead.
+<b>ActiveX:</b> use RowGrid.GetCellArray to access the Cells of a certain Row.
+
+<u>example:</u>
+	SAFEARRAY * v; long size;
+	RowGridX1->GetCellArray(&v,&size,0); // choose row 0
+	if(size) \{
+		long index = 0; IRowCellX * RowCellX;
+		// SafeArrayGetElement increases the RowCellX interface reference count
+		if(SafeArrayGetElement(v,&index,&RowCellX) != S_OK) \{
+			throw Exception("Could not access cell element");
+		\} else \{ShowInfo(RowCellX);\}
+		// SafeArrayDestroy releases unaccessed array elements
+		if(SafeArrayDestroy(v) != S_OK) \{
+			throw Exception("Could not release rowcell array");
+		\}
+		RowCellX->Release(); // release RowCellX (decrease reference count)
+	\}
+----- SHM ---- page 14 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property bool CheckPosition
+
+Setting CheckPosition will prevent RowCells from overlapping with other RowCells while the
+user inserts or drags/resizes. The application itself however may still insert overlapping cells.
+----- SHM ---- page 15 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property int ClientHeight;
+
+ClientHeight is defined as the height of the RowGrid without frame: ClientHeight = Height - 2*FrameWidth
+----- SHM ---- page 16 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property int ClientWidth;
+
+ClientWidth is defined as the width of the RowGrid without frame: ClientWidth = Width - 2*FrameWidth
+----- SHM ---- page 17 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property bool DefaultDrawing
+
+When DefaultDrawing is true, each RowCell is drawn with a frame of size <jump=SHM_contents0012>CellFrameWidth</jump>.
+and filled with color <jump=SHM_contents0011>CellColor</jump>.  The RowLines are filled with color <jump=SHM_contents0025>RowLineColor</jump> and ticks
+are drawn using color <jump=SHM_contents0029>TickColor</jump>. Use <jump=SHM_contents0049>OnDrawRowCell</jump> and <jump=SHM_contents0050>OnDrawRowLine</jump> when another
+drawing method is required.
+
+<b>Note:</b> The OnDrawRow events are called, regardless of the DefaultDrawing setting.
+----- SHM ---- page 18 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property RowCell DragCell
+
+This property represents the RowCell that is being dragged when <jump=SHM_contents0020>DragState</jump> is dsDragDrop,
+dsCopyDrop or dsInsert.
+
+<b>Note1:</b> DragCell.Units is set to zero if DragState equals dsInsert.
+<b>Note2:</b> Although unlikely, some applications may actually need write access to DragCell while the
+user is dragging. It is for this reason that DragCell is writeable but this 'feature' should be used with care.
+<b>ActiveX:</b> The IRowCellX interface returned should be released by the application writer.
+----- SHM ---- page 19 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+typedef enum \{dsDragDrop,dsCopyDrop,dsInsert,dsNone\} TDragState;
+__property TDragState DragState;
+
+This readonly property indicates whether the user is dragging, copying, inserting, or swapping a RowCell.
+Internally, DragState is set just after <jump=SHM_contents0047>OnDragRowCell</jump> and <jump=SHM_contents0053>OnRemoveRowCell</jump> are processed. Therefore
+DragState should be checked in the <jump=SHM_contents0051>OnInsertRowCell</jump> event to determine the user action. To find out
+whether the user is swapping a RowCell however, check DragState in the <jump=SHM_contents0047>OnDragRowCell</jump> event.
+
+<b>ActiveX:</b> TDragState is called TxDragState
+----- SHM ---- page 20 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property int FrameWidth
+
+The width of the frame surrounding the grid.
+
+----- SHM ---- page 21 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property int MinVisible
+
+MinVisible is the number of <jump=SHM_contents0030>Units</jump> that should remain visible while the user
+is dragging/resizing a RowCell. So when MinVisible is equal to Units, a <jump=SHM_contents0005>RowCell</jump> cannot
+be moved outside the RowGrid area. MinVisible is always smaller than or equal to Units.
+----- SHM ---- page 22 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property int RowCount
+
+Set RowCount to change the number of rows the grid has (See <jump=SHM_contents0014>Cells</jump> and <jump=SHM_contents0045>OnClearRowCell</jump>).
+----- SHM ---- page 23 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property int RowHeight
+
+Set RowHeight to change the height of each grid row.
+
+<b>Note:</b> Scrollbars have not yet been implemented. It is suggested that the application uses a TScrollBox
+and makes sure that ClientHeight = (RowCount+1)*RowLineWidth + RowCount*RowHeight.
+----- SHM ---- page 24 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property TColor RowLineColor
+
+The rows of the grid are separated by rowlines. Set RowLineColor to change the color of each rowline.
+(Also see <jump=SHM_contents0029>TickColor</jump>)
+----- SHM ---- page 25 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property int RowLineWidth
+
+The rows of the grid are separated by rowlines. Set RowLineWidth to change the width of each rowline.
+----- SHM ---- page 26 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property bool ShiftKeyHolds
+
+Set ShiftKeyHolds so the user can use the mouse in combination with the SHIFT key to
+drag a cell without holding the mouse button. (Also see <jump=SHM_contents0009>AltKeyInserts</jump> and <jump=SHM_contents0028>ShiftKeySwaps</jump>)
+
+----- SHM ---- page 27 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property bool ShiftKeySwaps
+
+When the user is dragging a <jump=SHM_contents0005>RowCell</jump> and this property is true, the user can swap RowCells
+by holding down the shift key and clicking on another RowCell. (also see <jump=SHM_contents0004>Using the mouse</jump>)
+
+
+----- SHM ---- page 28 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property int TickColor
+
+The rows of the grid are separated by rowlines. When a rowline is drawn, its <jump=SHM_contents0030>Units</jump> are marked
+by ticks. The TickColor property specifies the color of these ticks. (Also see <jump=SHM_contents0025>RowLineColor</jump>)
+----- SHM ---- page 29 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property int Units
+
+Specifies the total number of units in the horizontal direction of the grid, along the rowlines. All RowCells
+of the grid are specified in units as this is the smallest indivisible element the grid works with. This means
+that <jump=SHM_contents0005>RowCell</jump> borders are always placed onto whole units. Increasing the total number of units therefore
+increases the accuracy by which RowCells can be placed (Also see <jump=SHM_contents0031>UnitWidth</jump>).
+
+----- SHM ---- page 30 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property int UnitWidth
+
+Set UnitWidth to specify the number of pixels per unit.
+
+<b>Note:</b> Scrollbars have not yet been implemented. It is suggested that the application uses a TScrollBox
+and makes sure that ClientWidth = Units*UnitWidth.
+----- SHM ---- page 31 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+__property bool VerticalRows
+
+Set VerticalRows to change the orientation of the RowGrid.
+<b>Note:</b> When the VerticalRows setting is enabled, the meaning of
+<jump=SHM_contents0038>CellState</jump> changes as follows: (csLeft,csTop),(csRight,csBottom)
+----- SHM ---- page 32 ---- 
+<b>In TRowGrid</b>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0034>CellRect</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0035>ClearDragState</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0036>ClearRow</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0037>InsertRowCell</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0038>MouseToCell</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0039>PaintCell</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0040>RemoveRowCell</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0041>RowLineRect</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0042>SortRow</jump>
+\ql\{bml spacebullit.bmp\}\ql <jump=SHM_contents0034>ToggleFocus</jump>
+
+<b>Derived from classes in the <pop=SHM_contents0002>hierarchy</pop></b>
+- All methods declared public.
+
+----- SHM ---- page 33 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+TRect __fastcall CellRect(RowCell & RowCell);
+
+Use CellRect to convert a RowCell to a Rectangle which can be drawn to the
+RowGrid. The rectangle values are relative to the RowGrid. (Also see <jump=SHM_contents0041>RowLineRect</jump>)
+
+<b>ActiveX:</b> The IRectX interface returned should be released by the application writer.
+----- SHM ---- page 34 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+Clears the dragstate of the rowgrid
+
+RowCell __fastcall ClearDragState(void);
+
+ClearDragState resets <jump=SHM_contents0020>DragState</jump> to dsNone. When the application calls this method while the
+user is manipulating RowCells, any unfinished RowCell operation is immediately terminated.
+Refer to <jump=SHM_contents0004>using the mouse</jump> for more information about RowCell operations.
+
+
+
+----- SHM ---- page 35 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+Clears the RowGrid
+
+void __fastcall ClearRow(int Row);
+
+Use ClearRow to remove all <jump=SHM_contents0005>RowCells</jump> from the specified row.
+To deallocate RowCell objects use the <jump=SHM_contents0045>OnClearRowCell</jump> event.
+----- SHM ---- page 36 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+Inserts a new RowCell into the RowGrid
+
+void __fastcall InsertRowCell(RowCell & RowCell);
+
+Use InsertRowCell to insert a new RowCell into the grid.
+To maintain the sort order, the application should call <jump=SHM_contents0042>SortRow</jump> for the
+appropriate rows after finishing its insertions. (see <jump=SHM_contents0051>OnInsertRowCell</jump>)
+----- SHM ---- page 37 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+RowCell __fastcall MouseToCell(int X,int Y,TCellState & State);
+
+Use MouseToCell to convert a RowGrid coordinate (X,Y) to a RowCell where X:[0,Width) and
+Y:[0,Height). After calling MouseToCell, the <jump=SHM_contents0013>State</jump> parameter contains more information about
+the coordinate with respect to the RowGrid.
+
+<b>Note:</b> Use <jump=SHM_contents0010>CellBorderWidth</jump> to change the border size of a RowCell.
+<b>ActiveX:</b> The IRowCellX interface returned should be released by the application writer.
+
+<u>example1:</u>
+	IRowCellXPtr SelectedCell; // global variable
+	RowGridX1MouseDown(TObject * Sender,TxMouseButton MouseButton,
+		unsigned_char <jump=SHM_contents0003>ShiftState</jump>,long X,long Y) \{
+
+		IRowCellXPtr RowCell; TxCellState CellState;
+		RowGridX1->MouseToCell(&RowCell, X, Y, &CellState);
+		if(CellState != csNone && CellState != csEmpty) \{
+			SelectedCell.Reset();
+			SelectedCell = RowCell;
+		\}
+	\}
+
+<u>example2:</u>
+	procedure TForm1.RowGridXMouseMove(Sender: TObject; <jump=SHM_contents0003>ShiftState</jump>: Byte; X,Y: Integer);
+	var
+		rowcell : RowCellX;
+		cellstate : TxCellState;
+	begin
+		TRowGridX(Sender).MouseToCell(rowcell,X,Y,cellstate);
+		if ((cellstate <> RowGrid_TLB.csNone) and
+		    (cellstate <> RowGrid_TLB.csEmpty)) then
+		    // for example set the RowGrid Hint property
+	end;
+----- SHM ---- page 38 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+
+void __fastcall PaintCell(RowCell & RowCell,bool ClearOnly = false);
+
+Use PaintCell to paint the specified RowCell within the grid. If ClearOnly is true,
+then the RowCell is cleared only and the entire row is repainted.
+----- SHM ---- page 39 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+Removes an existing RowCell from the RowGrid
+
+void __fastcall RemoveRowCell(RowCell & RowCell);
+
+Use RemoveRowCell to remove an existing RowCell from the grid. RemoveRowCell
+uses the <jump=SHM_contents0006>RowCell equality operator</jump> to identify the RowCell that must be removed. When
+an entire row should be cleared use <jump=SHM_contents0036>ClearRow</jump> instead.
+
+<u>example1:</u>
+	TCellState state;
+	RowCell RowCell = MouseToCell(MouseX,MouseY,state);
+	if(state != csNone && state != csEmpty) \{
+		if(RowCell.object) \{delete RowCell.object;\}
+		RowGrid1->RemoveRowCell(RowCell);
+		RowGrid1->Refresh(); // show changes
+	\}
+
+<u>example2:</u>
+	if(RowGrid1->RowCount && RowGrid1->Cells[0].size()) \{
+		RowCell RowCell = RowGrid1->Cells[0][0];
+		if(RowCell.object) \{delete RowCell.object;\}
+		RowGrid1->RemoveRowCell(RowCell);
+		RowGrid1->Refresh(); // show changes
+	\}
+----- SHM ---- page 40 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+TRect __fastcall RowLineRect(int Row);
+
+Use RowLineRect to convert a rowline to a Rectangle which can be drawn to the
+RowGrid. The rectangle values are relative to the RowGrid.
+
+<b>ActiveX:</b> The IRectX interface returned should be released by the application writer.
+----- SHM ---- page 41 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+Sorts the RowGrid
+
+void __fastcall SortRow(int Row);
+
+Use SortRow to sort all <jump=SHM_contents0005>RowCells</jump> of the specified row. To determine the sort order, SortRow
+uses the <jump=SHM_contents0007>< operator</jump>
+----- SHM ---- page 42 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+Toggles the current position of the rowcell being dragged.
+
+void __fastcall ToggleFocus(void);
+
+ToggleFocus toggles the focus of the current rowcell position. This is useful when painting to
+the canvas at the moment a RowCell is being dragged: First call ToggleFocus to hide the focus
+and after painting call ToggleFocus again to restore the focus. (also see <jump=SHM_contents0048>OnDrawFocusRect</jump>)
+----- SHM ---- page 43 ---- 
+<b>In TRowGrid</b>
+<jump=SHM_contents0045>OnClearRowCell</jump>
+<jump=SHM_contents0046>OnDblClickRowCell</jump>	
+<jump=SHM_contents0047>OnDragRowCell</jump>
+<jump=SHM_contents0048>OnDrawFocusRect</jump>
+<jump=SHM_contents0049>OnDrawRowCell</jump>
+<jump=SHM_contents0050>OnDrawRowLine</jump>
+<jump=SHM_contents0051>OnInsertRowCell</jump>
+<jump=SHM_contents0052>OnPaint</jump>
+<jump=SHM_contents0053>OnRemoveRowCell</jump>
+
+<b>Derived from classes in the <pop=SHM_contents0002>hierarchy</pop></b>
+- All events declared public
+----- SHM ---- page 44 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+typedef void __fastcall (__closure * TClearRowCellEvent)
+	(TObject* Sender,RowCell & RowCell,bool & CanClear);
+
+When <jump=SHM_contents0023>RowCount</jump> is set to a value less than its previous value, this event is generated for each cleared
+RowCell. Also when calling <jump=SHM_contents0036>ClearRow</jump>, this event is generated but with CanClear set to false. In
+this case, the application can set CanClear to allow only specific cells to be removed. Finally, whenever
+ClearDragState is called or a RowCell swap operation fails, this event may also be generated. To prevent
+memory leaks, the application should always implement the OnClearRowCell event and deallocate the
+objects that were associated with RowCells.
+----- SHM ---- page 45 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+typedef void __fastcall (__closure * TDblClickRowCellEvent) (TObject* Sender,RowCell RowCell)
+
+This event is generated when the user double clicks a RowCell and is not performing any RowCell
+operation. The application could for example respond by displaying additional information about the
+object contained within the RowCell.
+----- SHM ---- page 46 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+typedef void __fastcall (__closure * TDragRowCellEvent)
+	(TObject* Sender,RowCell & RowCell,TCellState CellState,
+	bool IsCopy,bool & CanDrag)
+
+This event is generated when the user starts to drag or swaps a RowCell (see <jump=SHM_contents0004>using the mouse</jump>).
+The <jump=SHM_contents0013>CellState</jump> contains the RowCell border that was clicked. Use IsCopy to find out whether the user
+is copying or merely dragging a RowCell. Set CanDrag to false to prevent the user from dragging
+the RowCell (also see <jump=SHM_contents0020>DragState</jump>)
+
+<b>Note1:</b> If IsCopy is true, RowCell.Object should be assigned with a newly allocated, copied object.
+<b>Note2:</b> If DragState is checked within this event, it equals dsNone unless a cell is being swapped.
+
+----- SHM ---- page 47 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+typedef void __fastcall (__closure * TDrawFocusRectEvent)
+	(TObject* Sender,TRect Rect);
+
+This event is generated each time a RowCell is being dragged and its current position is
+drawn or hidden. The Rect parameter contains the coordinates of the canvas rectangle
+matching the position. Use Rect to draw or hide the focus. 
+
+<b>ActiveX:</b> Use RowGrid->HDC to create a canvas, see the example of <jump=SHM_contents0049>OnDrawRowCell</jump>
+----- SHM ---- page 48 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+typedef void __fastcall (__closure * TDrawRowCellEvent)
+	(TObject* Sender,RowCell RowCell,TRect Rect);
+
+This event is generated for each RowCell when the RowGrid is Invalidated/(re)painted. The Rect
+parameter contains the coordinates of the canvas rectangle matching the RowCell. Use Rect to
+draw onto the canvas (RowGrid->Canvas).
+
+<b>ActiveX:</b> Use RowGrid->HDC to create a canvas, see the example
+
+<u>example:</u>
+	long left,top,right,bottom;
+	RectX->get_Left(&left);
+	RectX->get_Top(&top);
+	RectX->get_Right(&right);
+	RectX->get_Bottom(&bottom);
+	TRect Rect(left,top,right,bottom);
+
+	HDC CanvasHandle = RowGridX1->HDC;
+	TCanvas * Canvas = new TCanvas();
+	Canvas->Handle = CanvasHandle;
+	Canvas->TextRect(Rect,Rect.left,Rect.top,"ActiveX version");
+	delete Canvas;
+----- SHM ---- page 49 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+typedef void __fastcall (__closure * TDrawRowLineEvent)
+	(TObject* Sender,int Row,TRect Rect);
+
+This event is generated for each RowLine when the RowGrid is Invalidated/(re)painted. The Row
+parameter specifies the rowline number that is being drawn, counting from 0 towards RowCount.
+The Rect parameter contains the coordinates of the canvas rectangle matching the RowLine. Use
+Rect to draw onto the canvas (RowGrid->Canvas). 
+
+<b>ActiveX:</b> Use RowGrid->HDC to create a canvas, see the example of <jump=SHM_contents0049>OnDrawRowCell</jump>
+----- SHM ---- page 50 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+typedef void __fastcall (__closure * TInsertRowCellEvent)
+	(TObject* Sender,RowCell & RowCell,bool & CanInsert)
+
+This event is generated when the user inserts a RowCell (see <jump=SHM_contents0004>using the mouse</jump>).
+Setting CanInsert to false prevents the user from inserting the RowCell. To associate
+an object with the RowCell, allocate its memory and set the RowCell object member.
+The application writer is completely responsible for deallocating the object (also see
+<jump=SHM_contents0040>RemoveRowCell</jump>).
+
+<b>Note1:</b> When calling <jump=SHM_contents0037>InsertRowCell</jump> from the application itself, this event is not generated.
+<b>Note2:</b> <jump=SHM_contents0042>SortRow</jump> is called automatically after the OnInsertRowCell event completes.
+----- SHM ---- page 51 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+typedef void __fastcall (__closure * TNotifyEvent)
+	(TObject* Sender);
+TNotifyEvent OnPaint;
+
+This event is generated just before the RowGrid is repainted.
+----- SHM ---- page 52 ---- 
+<jump=SHM_contents0001>TRowGrid</jump>
+<u>                                                                                                                                                                                                </u>
+typedef void __fastcall (__closure * TRemoveRowCellEvent)
+	(TObject* Sender,RowCell & RowCell,bool & CanRemove);
+
+This event is generated when the user removes a RowCell (see <jump=SHM_contents0004>using the mouse</jump>).
+Setting CanRemove to false prevents the user from removing the RowCell.
+
+<b>Note:</b> When calling <jump=SHM_contents0040>RemoveRowCell</jump> from the application itself, this event is not generated.

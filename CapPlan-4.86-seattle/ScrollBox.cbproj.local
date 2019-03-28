@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.012,=C:\p_plan_xe3\FixedScrollBox.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.030,=C:\p_plan_xe3\ScrollBox.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.437,C:\Users\Gebruiker\Documents\RAD Studio\Projects\ScrollBox.cbproj=C:\Users\Gebruiker\Documents\RAD Studio\Projects\ScrollBox.cbproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.739,=C:\p_plan_xe3\ScrollBox.res</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.847,C:\Users\Gebruiker\Documents\RAD Studio\Projects\ScrollBox.cbproj=C:\Users\Gebruiker\Documents\RAD Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2019-02-07 19:15:20.469,=C:\Users\sbmpost\Documents\Embarcadero\Studio\Projects\p_plan\ScrollBox.res</Transaction>
+    <Transaction>2019-02-07 19:15:40.292,=C:\Users\sbmpost\Documents\Embarcadero\Studio\Projects\p_plan\FixedScrollBox.cpp</Transaction>
+    <Transaction>2019-02-07 19:15:40.301,=C:\Users\sbmpost\Documents\Embarcadero\Studio\Projects\p_plan\ScrollBox.cpp</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="ScrollBox.res"/>
+    <File Path="FixedScrollBox.cpp"/>
+    <File Path="FixedScrollBox.cpp"/>
+    <File Path="FixedScrollBox.h"/>
+    <File Path="ScrollBox.cpp"/>
+  </ProjectSortOrder>
+</BorlandProject>
