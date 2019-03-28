@@ -88,4 +88,4 @@ D) If you want to use the Dutch version of CapPlan you can do this:
 E) The CapPlan source and binaries are copyright by PostWare (sbmpost). This includes the files in these archives:
   - CapPlan-4.86-OSX.zip
   - CapPlan-4.86-WIN.zip
-  - CapPlan-4.86-seattle.zip
+  - CapPlan-4.86-seattle
