@@ -24,7 +24,7 @@ Install UnixODBC
 
 11. install MySQL (not needed if MySQL is already installed on another server)
   - run: brew install mysql
-  - nano: /usr/local/etc/my.cnf
+  - run: nano /usr/local/etc/my.cnf
   - edit: innodb_lock_wait_timeout = 1 (add this line)
   - save: use CTRL-X and answer with y + ENTER
   - run: brew services start mysql
