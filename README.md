@@ -4,25 +4,26 @@ CapPlan Prerequisites
 ------------------------
 
 1. run: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-2. run: brew install libpng freetype
-3. run: cp "/Volumes/NO NAME/CapPlan-4.86-OSX.zip" $HOME && unzip $HOME/CapPlan-4.86-OSX.zip -d $HOME
-4. run: cp $HOME/CapPlan-4.86-OSX/mail_doc.sh /usr/local/bin
-5. run: cp -r $HOME/CapPlan-4.86-OSX/CapPlan.app $HOME/Applications
+2. run: brew install libpng freetype wget
+3. run: cd $HOME/Downloads && wget https://github.com/sbmpost/CapPlan/blob/master/CapPlan-4.86-OSX.zip
+4. run: unzip $HOME/Downloads/CapPlan-4.86-OSX.zip -d $HOME
+5. run: cp $HOME/CapPlan-4.86-OSX/mail_doc.sh /usr/local/bin
+6. run: cp -r $HOME/CapPlan-4.86-OSX/CapPlan.app $HOME/Applications
 
 Install UnixODBC
 ------------------------
 
-6. run: brew install unixodbc
-7. run: open $HOME/CapPlan-4.86-OSX/iodbc.dmg
-8. run: open $HOME/CapPlan-4.86-OSX/myodbc.dmg
-9. run: cp $HOME/CapPlan-4.86-OSX/odbc* /usr/local/etc
-10. make symbolic links:
+7. run: brew install unixodbc
+8. run: open $HOME/CapPlan-4.86-OSX/iodbc.dmg
+9. run: open $HOME/CapPlan-4.86-OSX/myodbc.dmg
+10. run: cp $HOME/CapPlan-4.86-OSX/odbc* /usr/local/etc
+11. make symbolic links:
   - run: sudo mv /Library/ODBC/odbc.ini /Library/ODBC/odbc.orig.ini
   - run: sudo mv /Library/ODBC/odbcinst.ini /Library/ODBC/odbcinst.orig.ini
   - run: sudo ln -s /usr/local/etc/odbc.ini /Library/ODBC/odbc.ini
   - run: sudo ln -s /usr/local/etc/odbcinst.ini /Library/ODBC/odbcinst.ini
 
-11. install MySQL (not needed if MySQL is already installed on another server)
+12. install MySQL (not needed if MySQL is already installed on another server)
   - run: brew install mysql
   - run: nano /usr/local/etc/my.cnf
   - edit: innodb_lock_wait_timeout = 1 (add this line)
@@ -30,13 +31,13 @@ Install UnixODBC
   - run: brew services start mysql
   - optional: refer to MySQL documentation for information on making database backups
 
-12. update odbc.ini settings:
+13. update odbc.ini settings:
   - run: nano /Library/ODBC/odbc.ini
   - edit: Password=MySQL root password (to setup a non-root user, see note A below)
   - edit: Server=MySQL server ip (for example 10.0.0.221)
   - save: use CTRL-X and answer with y + ENTER
 
-13. check ODBC installation with:
+14. check ODBC installation with:
   - run: odbcinst -j      (file locations)
   - run: odbcinst -q -s   (data sources)
   - run: odbcinst -q -d   (drivers)
@@ -44,14 +45,14 @@ Install UnixODBC
 Install CapPlan
 ------------------------
 
-14. run: $HOME/Applications/CapPlan.app/Contents/MacOS/install.sh
-15. run: chmod +x $HOME/Applications/CapPlan.app/Contents/Resources/wine-prefix/drive_c/users/$USER/CapPlan/*.sh
-16. run: open $HOME/Applications/CapPlan.app
-17. in CapPlan: check document paths via Tools | Options | Folders menu
-18. in CapPlan: add an order.pdf document via Archive | Documents | New
-19. in CapPlan: open the added order.pdf document via Archive | Documents | Open (see also note B below)
-20. allow access to "System Events" via System Preferences | Security & Privacy | Privacy | Accessibility
-21. CapPlan installation is done, below are some additional notes which might be useful
+15. run: $HOME/Applications/CapPlan.app/Contents/MacOS/install.sh
+16. run: chmod +x $HOME/Applications/CapPlan.app/Contents/Resources/wine-prefix/drive_c/users/$USER/CapPlan/*.sh
+17. run: open $HOME/Applications/CapPlan.app
+18. in CapPlan: check document paths via Tools | Options | Folders menu
+19. in CapPlan: add an order.pdf document via Archive | Documents | New
+20. in CapPlan: open the added order.pdf document via Archive | Documents | Open (see also note B below)
+21. allow access to "System Events" via System Preferences | Security & Privacy | Privacy | Accessibility
+22. CapPlan installation is now done, below are some additional notes which might be useful
 
 Additional (admin) Notes
 ------------------------
