@@ -5,7 +5,7 @@ CapPlan Prerequisites
 
 1. run: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 2. run: brew install libpng freetype wget
-3. run: wget -P $HOME/Downloads https://github.com/sbmpost/CapPlan/blob/master/CapPlan-4.86-OSX.zip
+3. run: wget -P $HOME/Downloads https://github.com/sbmpost/CapPlan/blob/master/CapPlan-4.86-OSX.zip?raw=true
 4. run: unzip $HOME/Downloads/CapPlan-4.86-OSX.zip -d $HOME
 5. run: cp $HOME/CapPlan-4.86-OSX/mail_doc.sh /usr/local/bin
 6. run: cp -r $HOME/CapPlan-4.86-OSX/CapPlan.app $HOME/Applications
