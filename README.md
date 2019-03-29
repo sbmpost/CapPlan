@@ -71,7 +71,8 @@ B) CapPlan integrates with Apple's Preview application. If another PDF integrati
    "$HOME/Applications/CapPlan.app/Contents/Resources/wine-prefix/drive_c/users/$USER/CapPlan/open_doc.sh". In
    the same folder you will find a file called "open_doc_pdf_studio.sh". To integrate with PDF Studio 9, simply
    rename that file to "open_doc.sh" (you probably want to backup "open_doc.sh" first). For other integrations
-   you will have to modify "open_doc.sh" and create an osascript file yourself. The operation is as follows:
+   you will have to modify the "open_doc.sh" file yourself and create the AppleScript that goes with it. You
+   can look at the *.scpt files for inspiration. CapPlan operation is as follows:
    When CapPlan opens a pdf file, the open_doc.sh script gets called with two parameters: $1=the pdf file to
    open, $2=a temporary file. The existence of the temporary file is periodically checked and CapPlan will
    consider the pdf file closed once this file is removed. In turn, open_doc.sh calls osascript to monitor
