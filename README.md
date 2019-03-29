@@ -78,7 +78,9 @@ B) CapPlan integrates with Apple's Preview application. To integrate with PDF St
   called with two parameters: $1=the pdf file to open, $2=a temporary file. The existence of the temporary
   file is periodically checked by a program called "spawn_open.exe" and CapPlan will consider the pdf file
   closed once the temporary file is removed. In turn open_doc.sh calls osascript to monitor the actual pdf
-  application. In summary the flow is as follows: CapPlan -> spawn_open.exe -> open_doc.sh -> osascript.
+  application. So the flow is as follows:
+   
+  CapPlan.exe -> spawn_open.exe -> open_doc.sh -> osascript (open_wait.scpt/wait_quit.scpt/wait_save.scpt)
 
 C) Multiple CapPlan clients can connect to the same database server. CapPlan is multiuser aware and will detect
    simultaneous changes to data and warn the user if clashes occur. As for documents, 3rd party synchronisation
