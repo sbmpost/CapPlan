@@ -1,4 +1,4 @@
-# Installation instructions for OSX & notes
+# Installation instructions for OSX & Notes
 
 CapPlan Prerequisites
 ------------------------
