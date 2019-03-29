@@ -32,8 +32,8 @@ Install UnixODBC
 
 12. update odbc.ini settings:
   - run: nano /Library/ODBC/odbc.ini
-  - edit: Password=<MySQL root password> (to setup a non-root user, see note A below)
-  - edit: Server=<MySQL server ip> (for example 10.0.0.221)
+  - edit: Password=MySQL root password (to setup a non-root user, see note A below)
+  - edit: Server=MySQL server ip (for example 10.0.0.221)
   - save: use CTRL-X and answer with y + ENTER
 
 13. check ODBC installation with:
@@ -59,8 +59,8 @@ Additional (admin) Notes
 A) After a successful CapPlan setup, a non-root user can be created:
   - create the non-root user (refer to the MySQL documentation to see how). 
   - run: nano /Library/ODBC/odbc.ini
-  - edit: User=<MySQL non-root user>
-  - edit: Password=<MySQL user password>
+  - edit: User=MySQL non-root user
+  - edit: Password=MySQL user password
   - save: use CTRL-X and answer with y + ENTER
   - note that the default schedule that CapPlan creates is owned by root and invisible to other users. The
     root user can unhide the default schedule via: Archive | Schedules | Details. non-root users can also
