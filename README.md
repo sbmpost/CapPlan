@@ -6,17 +6,17 @@ CapPlan Prerequisites
 1. run: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 2. run: brew install libpng freetype wget
 3. run: wget -O $HOME/Downloads/CapPlan-4.86-OSX.zip https://github.com/sbmpost/CapPlan/blob/master/CapPlan-4.86-OSX.zip?raw=true
-4. run: unzip $HOME/Downloads/CapPlan-4.86-OSX.zip -d $HOME
-5. run: cp $HOME/CapPlan-4.86-OSX/mail_doc.sh /usr/local/bin
-6. run: cp -r $HOME/CapPlan-4.86-OSX/CapPlan.app $HOME/Applications
+4. run: unzip $HOME/Downloads/CapPlan-4.86-OSX.zip -d $HOME/Downloads
+5. run: cp $HOME/Downloads/CapPlan-4.86-OSX/mail_doc.sh /usr/local/bin
+6. run: cp -r $HOME/Downloads/CapPlan-4.86-OSX/CapPlan.app $HOME/Applications
 
 Install UnixODBC
 ------------------------
 
 7. run: brew install unixodbc
-8. run: open $HOME/CapPlan-4.86-OSX/iodbc.dmg
-9. run: open $HOME/CapPlan-4.86-OSX/myodbc.dmg
-10. run: cp $HOME/CapPlan-4.86-OSX/odbc* /usr/local/etc
+8. run: open $HOME/Downloads/CapPlan-4.86-OSX/iodbc.dmg
+9. run: open $HOME/Downloads/CapPlan-4.86-OSX/myodbc.dmg
+10. run: cp $HOME/Downloads/CapPlan-4.86-OSX/odbc* /usr/local/etc
 11. make symbolic links:
   - run: sudo mv /Library/ODBC/odbc.ini /Library/ODBC/odbc.orig.ini
   - run: sudo mv /Library/ODBC/odbcinst.ini /Library/ODBC/odbcinst.orig.ini
