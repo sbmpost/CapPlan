@@ -67,16 +67,18 @@ A) After a successful CapPlan setup, a non-root user can be created:
     root user can unhide the default schedule via: Archive | Schedules | Details. non-root users can also
     create schedules which by default are only visible to them and the root user.
 
-B) CapPlan integrates with Apple's Preview application. If another PDF integration is desired, then refer to
-   "$HOME/Applications/CapPlan.app/Contents/Resources/wine-prefix/drive_c/users/$USER/CapPlan/open_doc.sh". In
-   the same folder you will find a file called "open_doc_pdf_studio.sh". To integrate with PDF Studio 9, simply
-   rename that file to "open_doc.sh" (you probably want to backup "open_doc.sh" first). For other integrations
-   you will have to modify the "open_doc.sh" file yourself and create the AppleScript that goes with it. You
-   can look at the *.scpt files for inspiration. CapPlan operation is as follows:
-   When CapPlan opens a pdf file, the open_doc.sh script gets called with two parameters: $1=the pdf file to
-   open, $2=a temporary file. The existence of the temporary file is periodically checked and CapPlan will
-   consider the pdf file closed once this file is removed. In turn, open_doc.sh calls osascript to monitor
-   the actual pdf application (Preview in this case)
+B) CapPlan integrates with Apple's Preview application. To integrate with PDF Studio 9, do the following:
+  - run: cd $HOME/Applications/CapPlan.app/Contents/Resources/wine-prefix/drive_c/users/$USER/CapPlan
+  - run: mv open_doc.sh open_doc_preview.sh
+  - run: mv open_doc_pdf_studio.sh open_doc.sh  
+
+  If another PDF integration is desired you will have to modify the "open_doc.sh" file and create a script
+  that goes with it. For inspiration on how to do the latter, have a look at the *.scpt files which can be
+  opened with "Script Editor". Also useful to know is that when CapPlan opens a pdf file, open_doc.sh gets
+  called with two parameters: $1=the pdf file to open, $2=a temporary file. The existence of the temporary
+  file is periodically checked by a program called "spawn_open.exe" and CapPlan will consider the pdf file
+  closed once this file is removed. In turn, open_doc.sh calls osascript to monitor the actual pdf app. In
+  summary the flow is as follows: CapPlan -> spawn_open.exe -> open_doc.sh -> osascript.
 
 C) Multiple CapPlan clients can connect to the same database server. CapPlan is multiuser aware and will detect
    simultaneous changes to data and warn the user if clashes occur. As for documents, 3rd party synchronisation
