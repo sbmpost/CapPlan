@@ -82,7 +82,7 @@ C) Multiple CapPlan clients can connect to the same database server. CapPlan is 
 D) If you want to use the Dutch version of CapPlan you can do this:
   - run: nano $HOME/Applications/CapPlan.app/Contents/MacOS/capplan.sh
   - edit: export LC_ALL="nl_NL.UTF-8"
-  - edit: APP="$(winepath "c:\\users\\$USER\\CapPlan\\CapPlan_NLD.exe")"
+  - edit: APP="$(winepath "c:\\\\users\\\\$USER\\\\CapPlan\\\\CapPlan_NLD.exe")"
   - save: use CTRL-X and answer with y + ENTER
 
 E) The CapPlan source and binaries are copyright by PostWare (sbmpost). This includes the files in these archives:
