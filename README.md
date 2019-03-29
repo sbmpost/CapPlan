@@ -1,3 +1,5 @@
+![alt text](https://github.com/sbmpost/CapPlan/blob/master/CapPlan.png "CapPlan")
+
 # Installation instructions for OSX & Additional notes
 
 CapPlan Prerequisites
