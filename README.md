@@ -16,8 +16,8 @@ Install UnixODBC
 ------------------------
 
 7. run: brew install unixodbc
-8. run: open $HOME/Downloads/CapPlan-4.86-OSX/iodbc.dmg
-9. run: open $HOME/Downloads/CapPlan-4.86-OSX/myodbc.dmg
+8. run: open $HOME/Downloads/CapPlan-4.86-OSX/iodbc.dmg (and double click the pkg file)
+9. run: open $HOME/Downloads/CapPlan-4.86-OSX/myodbc.dmg (and double click the pkg file)
 10. run: cp $HOME/Downloads/CapPlan-4.86-OSX/odbc* /usr/local/etc
 11. make symbolic links:
   - run: sudo mv /Library/ODBC/odbc.ini /Library/ODBC/odbc.orig.ini
