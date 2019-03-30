@@ -73,8 +73,8 @@ A) After a successful CapPlan setup, a non-root user can be created:
 
 B) CapPlan integrates with Apple's Preview application. To integrate with PDF Studio 9, do the following:
   - run: cd $HOME/Applications/CapPlan.app/Contents/Resources/wine-prefix/drive_c/users/$USER/CapPlan
-  - run: mv open_doc.sh open_doc_preview.sh
-  - run: mv open_doc_pdf_studio.sh open_doc.sh  
+  - run: cp open_doc.sh open_doc_preview.sh
+  - run: cp open_doc_pdf_studio.sh open_doc.sh  
 
   If another PDF integration is desired you will have to modify the "open_doc.sh" file and create a script
   that goes with it. For inspiration on how to do the latter, have a look at the *.scpt files which can be
