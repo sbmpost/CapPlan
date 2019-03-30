@@ -1,6 +1,8 @@
 ![alt text](https://github.com/sbmpost/CapPlan/blob/master/CapPlan.png "CapPlan")
 
-# Installation instructions for OSX & Additional notes
+# CapPlan installation instructions for OSX & Additional notes
+
+Open the "Terminal" application and run the commands as described in the steps below.
 
 CapPlan Prerequisites
 ------------------------
