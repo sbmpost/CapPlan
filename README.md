@@ -71,10 +71,10 @@ A) After a successful CapPlan setup, a non-root user can be created:
     root user can unhide the default schedule via: Archive | Schedules | Details. non-root users can also
     create schedules which by default are only visible to them and the root user.
 
-B) CapPlan integrates with Apple's Preview application. To integrate with PDF Studio 9, do the following:
+B) CapPlan integrates with Apple's Preview application. To integrate with PDF Studio 2019, do the following:
   - run: cd $HOME/Applications/CapPlan.app/Contents/Resources/wine-prefix/drive_c/users/$USER/CapPlan
   - run: cp open_doc.sh open_doc_preview.sh
-  - run: cp open_doc_pdf_studio.sh open_doc.sh  
+  - run: cp open_doc_pdf_studio_2019.sh open_doc.sh
 
   If another PDF integration is desired you will have to modify the "open_doc.sh" file and create a script
   that goes with it. For inspiration on how to do the latter, have a look at the *.scpt files which can be
@@ -84,7 +84,7 @@ B) CapPlan integrates with Apple's Preview application. To integrate with PDF St
   closed once the temporary file is removed. In turn open_doc.sh calls osascript to monitor the actual pdf
   application. So the flow is as follows:
    
-  CapPlan.exe -> spawn_open.exe -> open_doc.sh -> osascript (open_wait.scpt/wait_quit.scpt/wait_save.scpt)
+  CapPlan.exe -> spawn_open.exe -> open_doc.sh -> osascript (open_wait.scpt/wait_quit_2019.scpt/wait_save.scpt)
 
 C) Multiple CapPlan clients can connect to the same database server. CapPlan is multiuser aware and will detect
    simultaneous changes to data and warn the user if clashes occur. As for documents, 3rd party synchronisation
